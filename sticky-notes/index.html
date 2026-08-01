@@ -10,6 +10,97 @@
 </head>
 
 <body>
+
+  <!--
+  La aplicación se divide en dos áreas principales:
+  - Sidebar: acciones, filtros y configuración.
+  - Workspace: espacio libre donde el usuario organiza las notas.
+-->
+  <aside class="sidebar">
+    <header class="sidebar__header">
+      <div class="sidebar__logo">🐯</div>
+      <h1 class="sidebar__title">Sticky Notes</h1>
+      <p class="sidebar__subtitle">Escríbelo antes de que lo olvides...</p>
+    </header>
+
+    <section class="sidebar__actions">
+      <button type="button" class="btnAdd"> + Nueva Nota</button>
+      <div class="search">
+        <!-- con la clase sr-only ocultaremos el label. Está aquí por accesibilidad -->
+        <label class="sr-only" for="search">Buscar nota</label>
+        <input id="search" type="search" name="search" class="search__input" placeholder="Buscar nota">
+      </div>
+    </section>
+
+    <section class="sidebar__filters">
+      <h3 class="filters-title">Filtrar por</h3>
+      <ul class="filters-list">
+        <li class="filter">
+          <i class="filter__icon">✅</i>
+          <button class="filter__button" type="button">Todas</button>
+          <span class="filter__count">12</span>
+        </li>
+        <li class="filter">
+          <i class="filter__icon">✅</i>
+          <button class="filter__button" type="button">Hogar</button>
+          <span class="filter__count">5</span>
+        </li>
+        <li class="filter">
+          <i class="filter__icon">✅</i>
+          <button class="filter__button" type="button">Trabajo</button>
+          <span class="filter__count">2</span>
+        </li>
+        <li class="filter">
+          <i class="filter__icon">✅</i>
+          <button class="filter__button" type="button">Ideas</button>
+          <span class="filter__count">2</span>
+        </li>
+        <li class="filter">
+          <i class="filter__icon">✅</i>
+          <button class="filter__button" type="button">Ya me comió el tigre</button>
+          <span class="filter__count">3</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="sidebar__settings">
+
+      <div class="themes">
+        <button type="button" class="theme">
+          <i class="theme__icon">☀️</i>
+          <span class="theme__text">Tema claro</span>
+        </button>
+        <button type="button" class="theme">
+          <i class="theme__icon">🌙</i>
+          <span class="theme__text">Tema oscuro</span>
+        </button>
+      </div>
+
+      <button type="button" class="trash">
+        <i class="trash__logo">🗑️</i>
+        <span class="trash__text">Papelera</span>
+      </button>
+
+    </section>
+  </aside>
+
+  <main class="workspace">
+    <article class="note">
+      <header class="note__header">
+        <h2 class="note__title">Nueva Nota</h2>
+        <button type="button" class="note__cancel" aria-label="cancelar">X</button>
+      </header>
+      <form class="note__form">
+        <label for="title" class="sr-only">Título</label>
+        <input type="text" name="title" id="title" class="note__input" placeholder="Título">
+        <label for="content" class="sr-only">Contenido</label>
+        <textarea name="content" id="content" class="note__textarea" placeholder="Escribe aquí tu nota"></textarea>
+        <button type="submit" class="note__save">Guardar</button>
+      </form>
+    </article>
+  </main>
+
+
 </body>
 
 </html>
