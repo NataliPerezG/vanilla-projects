@@ -1,5 +1,5 @@
 :root {
-    --bgc-body: #ffebcd;
+    --bgc-body: #fbeedb;
     --bgc-sidebar: #f9f6eb;
     --font-family-title: "Englebert", cursive;
     --font-family-body: "Cause", cursive;
@@ -10,5 +10,6 @@
     --light-gray: #c7c2c7;
     --ligth-yellow: #f8ecc2;
     --white: rgb(250, 250, 250);
+    --bgc-note: #f0f3f3;
 
 }

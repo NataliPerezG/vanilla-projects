@@ -1,0 +1,119 @@
+.note__create {
+    min-width: 220px;
+    max-width: 250px;
+    margin: 2px;
+    min-height: 320px;
+    padding: 10px;
+    background-color: var(--bgc-note);
+    box-shadow: 0 0 15px 0 var(--light-gray);
+    border-radius: 10px;
+    color: var(--black);
+    top: 20px;
+    left: 30%;
+    z-index: 20;
+    backdrop-filter: blur(5px);
+
+    &::backdrop {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.create__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & .note__title {
+        margin: 10px;
+        font-family: var(--font-family-title);
+    }
+
+}
+
+.create__form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+
+    & label {
+        font-family: var(--font-family-title);
+        margin: 0;
+    }
+
+    & select {
+        height: 30px;
+        padding: 5px;
+        border: 1px solid var(--pink);
+        outline: none;
+        font-family: var(--font-family-body);
+        border-radius: 5px;
+    }
+
+    & input {
+        height: 20px;
+        padding: 5px;
+        border: 1px solid var(--pink);
+        outline: none;
+        font-family: var(--font-family-body);
+        border-radius: 5px;
+
+        &::placeholder {
+            font-family: var(--font-family-body);
+        }
+    }
+
+    & textarea {
+        padding: 5px;
+        resize: none;
+        height: clamp(100px, 10dvh, 500px);
+        border: 1px solid var(--pink);
+        outline: none;
+        font-family: var(--font-family-body);
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+}
+
+.note__buttons-create {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+
+    & button {
+        width: 35%;
+        font-size: .75rem;
+        text-transform: uppercase;
+        font-family: var(--font-family-body);
+        height: 25px;
+        border: 1.5px solid var(--gray);
+        border-radius: 5px;
+        color: var(--gray);
+        font-weight: 800;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    & .note__save {
+        background-color: var(--yellow);
+    }
+
+    & .note__cancel {
+        background-color: var(--pink);
+    }
+
+    & .note__close {
+        position: absolute;
+        background-color: transparent;
+        top: -40px;
+        right: -10px;
+        border: none;
+
+        & .btn-cancel {
+            font-size: 1.7rem;
+        }
+    }
+}

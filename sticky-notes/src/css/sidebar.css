@@ -2,6 +2,7 @@
     background-color: var(--bgc-sidebar);
     border-radius: 15px 0 0 15px;
     padding: 10px;
+    min-height: 95dvh;
     position: relative;
     z-index: 10;
     box-shadow: 10px 5px 20px 0 var(--gray);

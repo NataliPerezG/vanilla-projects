@@ -1,6 +1,6 @@
 body {
     background-color: var(--bgc-body);
-    min-height: 98dvh;
+    min-height: 100dvh;
     display: grid;
     grid-template-columns: minmax(250px, 1fr) 3fr;
 }
