@@ -5,6 +5,12 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/bloc-ico.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Englebert&display=swap"
+    rel="stylesheet">
   <script defer type="module" src="/src/main.js"></script>
   <title>sticky-notes</title>
 </head>
@@ -17,18 +23,24 @@
   - Workspace: espacio libre donde el usuario organiza las notas.
 -->
   <aside class="sidebar">
+
     <header class="sidebar__header">
-      <div class="sidebar__logo">🐯</div>
-      <h1 class="sidebar__title">Sticky Notes</h1>
+      <div class="sidebar__title">
+        <img class="sidebar__logo" src="./src/assets/bloc-small.png" alt="logo app"></img>
+        <h1 class="sidebar__text">Sticky Notes</h1>
+      </div>
       <p class="sidebar__subtitle">Escríbelo antes de que lo olvides...</p>
     </header>
 
     <section class="sidebar__actions">
-      <button type="button" class="btnAdd"> + Nueva Nota</button>
+      <button type="button" class="btnAdd">
+        <span class="material-symbols-outlined icon">add_circle</span>
+        Nueva Nota</button>
       <div class="search">
         <!-- con la clase sr-only ocultaremos el label. Está aquí por accesibilidad -->
         <label class="sr-only" for="search">Buscar nota</label>
         <input id="search" type="search" name="search" class="search__input" placeholder="Buscar nota">
+        <span class="material-symbols-outlined icon">search</span>
       </div>
     </section>
 
@@ -36,28 +48,45 @@
       <h3 class="filters-title">Filtrar por</h3>
       <ul class="filters-list">
         <li class="filter">
-          <i class="filter__icon">✅</i>
+          <span class="material-symbols-outlined filter__icon">
+            grid_view
+          </span>
           <button class="filter__button" type="button">Todas</button>
           <span class="filter__count">12</span>
         </li>
         <li class="filter">
-          <i class="filter__icon">✅</i>
+          <span class="material-symbols-outlined filter__icon">
+            cottage
+          </span>
           <button class="filter__button" type="button">Hogar</button>
           <span class="filter__count">5</span>
         </li>
         <li class="filter">
-          <i class="filter__icon">✅</i>
+          <span class="material-symbols-outlined filter__icon">
+            work
+          </span>
           <button class="filter__button" type="button">Trabajo</button>
           <span class="filter__count">2</span>
         </li>
         <li class="filter">
-          <i class="filter__icon">✅</i>
+          <span class="material-symbols-outlined filter__icon">
+            emoji_objects
+          </span>
           <button class="filter__button" type="button">Ideas</button>
           <span class="filter__count">2</span>
         </li>
         <li class="filter">
-          <i class="filter__icon">✅</i>
-          <button class="filter__button" type="button">Ya me comió el tigre</button>
+          <span class="material-symbols-outlined filter__icon">
+            skull
+          </span>
+          <button class="filter__button" type="button">Te comió el tigre</button>
+          <span class="filter__count">3</span>
+        </li>
+        <li class="filter">
+          <span class="material-symbols-outlined filter__icon">
+            label_off
+          </span>
+          <button class="filter__button" type="button"> Sin categoría</button>
           <span class="filter__count">3</span>
         </li>
       </ul>
@@ -66,22 +95,37 @@
     <section class="sidebar__settings">
 
       <div class="themes">
+
         <button type="button" class="theme">
-          <i class="theme__icon">☀️</i>
+          <span class="material-symbols-outlined theme__icon theme__active-icon">
+            wb_sunny
+          </span>
           <span class="theme__text">Tema claro</span>
+          <div class="theme__swich theme__active">
+            <div class="theme__swich-button"></div>
+          </div>
         </button>
+
         <button type="button" class="theme">
-          <i class="theme__icon">🌙</i>
+          <span class="material-symbols-outlined theme__icon">
+            dark_mode
+          </span>
           <span class="theme__text">Tema oscuro</span>
+          <div class="theme__swich">
+            <div class="theme__swich-button"></div>
+          </div>
         </button>
       </div>
 
       <button type="button" class="trash">
-        <i class="trash__logo">🗑️</i>
+        <span class="material-symbols-outlined trash__logo">
+          delete
+        </span>
         <span class="trash__text">Papelera</span>
       </button>
 
     </section>
+
   </aside>
 
   <main class="workspace">

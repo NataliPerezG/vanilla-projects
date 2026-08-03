@@ -1,0 +1,14 @@
+:root {
+    --bgc-body: #ffebcd;
+    --bgc-sidebar: #f9f6eb;
+    --font-family-title: "Englebert", cursive;
+    --font-family-body: "Cause", cursive;
+    --yellow: #fcde76;
+    --pink: #f6a7c5;
+    --black: #2f2e2e;
+    --gray: #666;
+    --light-gray: #c7c2c7;
+    --ligth-yellow: #f8ecc2;
+    --white: rgb(250, 250, 250);
+
+}
