@@ -1,0 +1,58 @@
+.note {
+    min-width: 220px;
+    max-width: 250px;
+    margin: 2px;
+    min-height: 200px;
+    padding: 20px;
+    background-color: var(--bgc-note);
+    box-shadow: 0 0 15px 0 var(--light-gray);
+    border-radius: 10px;
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+}
+
+.note__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & .note__title {
+        margin: 10px;
+        font-family: var(--font-family-title);
+    }
+}
+
+& .note__buttons {
+    display: flex;
+    padding: 5px;
+
+    & button {
+        border: none;
+        outline: none;
+
+        & span {
+            font-size: 1.3rem;
+        }
+    }
+
+    & .note__edit:hover {
+        cursor: pointer;
+        color: var(--yellow);
+    }
+
+    & .note__delete:hover {
+        cursor: pointer;
+        color: var(--pink);
+    }
+}
+
+.note__body {
+    flex: 1;
+    font-family: var(--font-family-body);
+}
+
+.note__footer {
+    text-align: end;
+    font-family: var(--font-family-body);
+}

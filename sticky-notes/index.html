@@ -164,22 +164,47 @@
           </button>
         </div>
       </form>
-
     </dialog>
 
+    <!-- 
+    Nota en la interfaz
+    -->
     <article class="note">
-
       <header class="note__header">
-        <h2 class="note__title">Nueva Nota</h2>
-        <button type="button" class="note__cancel" aria-label="cancelar">
-          <span class="material-symbols-outlined btn-cancel">
-            cancel
-          </span>
-        </button>
+        <h2 class="note__title">Título de la Nota</h2>
+
+        <div class="note__buttons">
+          <button type="button" class="note__edit" aria-label="cancelar">
+            <span class="material-symbols-outlined btn-cancel">
+              edit
+            </span>
+          </button>
+          <button type="button" class="note__delete" aria-label="cancelar">
+            <span class="material-symbols-outlined btn-cancel">
+              cancel
+            </span>
+          </button>
+        </div>
+      </header>
+      <section class="note__body">
+        <p>Lorem, ipsum dolor s
+        </p>
+      </section>
+      <footer class="note__footer">
+        <p>Categoría: <span class="note__category">Te comió el tigre</span></p>
+      </footer>
+    </article>
+
+    <!-- 
+  Modal para editar una nota
+-->
+
+    <dialog class="modal__edit">
+      <header class="edit__header">
+        <h2 class="note__title">Editar Nota</h2>
       </header>
 
-
-      <form class="note__form">
+      <form method="dialog" class="edit__form">
 
         <label for="title">Categoría</label>
         <select name="category" id="category">
@@ -195,13 +220,17 @@
         <label for="content">Contenido</label>
         <textarea name="content" id="content" class="note__textarea" placeholder="Escribe aquí tu nota"></textarea>
 
-        <div class="note__buttons-create">
-          <button type="submit" class="note__save">Guardar</button>
-          <button type="reset" class="note__cancel">Cancelar</button>
+        <div class="note__buttons-edit">
+          <button type="reset" class="note__cancel-edit">Cancelar</button>
+          <button type="submit" class="note__save-edit">Guardar</button>
+          <button type="submit" class="note__close-edit" aria-label="cancelar">
+            <span class="material-symbols-outlined btn-cancel">
+              cancel
+            </span>
+          </button>
         </div>
       </form>
-
-    </article>
+    </dialog>
   </main>
 
 

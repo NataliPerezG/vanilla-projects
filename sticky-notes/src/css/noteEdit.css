@@ -1,4 +1,4 @@
-.note__create {
+.modal__edit {
     min-width: 220px;
     max-width: 250px;
     margin: 2px;
@@ -19,7 +19,7 @@
     }
 }
 
-.create__header {
+.edit__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +31,7 @@
 
 }
 
-.create__form {
+.edit__form {
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -76,7 +76,7 @@
     }
 }
 
-.note__buttons-create {
+.note__buttons-edit {
     margin-top: 10px;
     display: flex;
     justify-content: flex-end;
@@ -98,15 +98,15 @@
         }
     }
 
-    & .note__save {
+    & .note__save-edit {
         background-color: var(--yellow);
     }
 
-    & .note__cancel {
+    & .note__cancel-edit {
         background-color: var(--pink);
     }
 
-    & .note__close {
+    & .note__close-edit {
         position: absolute;
         background-color: transparent;
         top: -40px;
