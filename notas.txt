@@ -2,15 +2,17 @@ Preguntas
 1. Demasiados mouseup en el documento:
 ¿Realmente el documento necesita un listener nuevo cada vez que nace una nota? O ¿Existe un único momento en toda la aplicación donde bastaría con escuchar el mouseup?
 2. El operador módulo para definir el índice del array clases
+
 Backlog:
 Autoguardado
-Categorías  (Tags)
+Categorías(Tags)
 Filtro
 Buscar notas
 Fijar una nota
 Modo oscuro
 Contraer sidebar
 Opciones para cambiar el color del theme
+
 Categorías elegidas por el usuario
 🏠 Hogar 
 💼 Trabajo 
@@ -20,8 +22,19 @@ Categorías calculadas por la aplicación
 🚨 Vence hoy 
 🐯 Ya me comió el tigre
 
+Arrastrar notas.
+Persistir top y left.
+Categorías funcionales.
+Filtrar por categorías.
+Animaciones fade.
+Local Storage.
+Fechas.
+"Ya me comió el tigre".
+Tema oscuro.
+Búsqueda.
+
+
 
 Sprint:
-Crear nota
 Eliminar nota
 Editar nota
