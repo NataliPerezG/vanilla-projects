@@ -131,108 +131,107 @@
   <main class="workspace">
 
     <!-- 
-    Modal para crear una nueva nota
-    -->
-    <dialog class="note__create">
-      <header class="create__header">
-        <h2 class="note__title">Nueva Nota</h2>
-      </header>
-
-      <form method="dialog" class="create__form">
-
-        <label for="title">Categoría</label>
-        <select name="category" id="category">
-          <option value="no-category">Sin categoría</option>
-          <option value="no-category">Hogar</option>
-          <option value="no-category">Trabajo</option>
-          <option value="no-category">Ideas</option>
-        </select>
-
-        <label for="title">Título</label>
-        <input type="text" name="title" id="title" class="note__input" placeholder="Título">
-
-        <label for="content">Contenido</label>
-        <textarea name="content" id="content" class="note__textarea" placeholder="Escribe aquí tu nota"></textarea>
-
-        <div class="note__buttons-create">
-          <button type="reset" class="note__cancel">Cancelar</button>
-          <button type="submit" class="note__save">Guardar</button>
-          <button type="submit" class="note__close" aria-label="cancelar">
-            <span class="material-symbols-outlined btn-cancel">
-              cancel
-            </span>
-          </button>
-        </div>
-      </form>
-    </dialog>
-
-    <!-- 
     Nota en la interfaz
     -->
-    <article class="note">
-      <header class="note__header">
-        <h2 class="note__title">Título de la Nota</h2>
 
-        <div class="note__buttons">
-          <button type="button" class="note__edit" aria-label="cancelar">
-            <span class="material-symbols-outlined btn-cancel">
-              edit
-            </span>
-          </button>
-          <button type="button" class="note__delete" aria-label="cancelar">
-            <span class="material-symbols-outlined btn-cancel">
-              cancel
-            </span>
-          </button>
-        </div>
-      </header>
-      <section class="note__body">
-        <p>Lorem, ipsum dolor s
-        </p>
-      </section>
-      <footer class="note__footer">
-        <p>Categoría: <span class="note__category">Te comió el tigre</span></p>
-      </footer>
-    </article>
+    <template class="template__note">
+      <article class="note">
+        <header class="note__header">
+          <h2 class="note__title">Título de la Nota</h2>
 
-    <!-- 
+          <div class="note__buttons">
+            <button type="button" class="note__edit" aria-label="cancelar">
+              <span class="material-symbols-outlined btn-cancel">
+                edit
+              </span>
+            </button>
+            <button type="button" class="note__delete" aria-label="cancelar">
+              <span class="material-symbols-outlined btn-cancel">
+                cancel
+              </span>
+            </button>
+          </div>
+        </header>
+        <section class="note__body">
+          <p class="note__content">Lorem, ipsum dolor s
+          </p>
+        </section>
+        <footer class="note__footer">
+          <p>Categoría: <span class="note__category">Te comió el tigre</span></p>
+        </footer>
+      </article>
+    </template>
+
+  </main>
+
+  <!-- 
+    Modal para crear una nueva nota
+    -->
+  <dialog class="note__create">
+    <header class="create__header">
+      <h2 class="note__title">Nueva Nota</h2>
+    </header>
+
+    <form method="dialog" class="create__form">
+
+      <label for="title">Categoría</label>
+      <select name="category" id="category">
+        <option value="no-category">Sin categoría</option>
+        <option value="home">Hogar</option>
+        <option value="work">Trabajo</option>
+        <option value="idea">Ideas</option>
+      </select>
+
+      <label for="title">Título</label>
+      <input type="text" name="title" id="title" class="note__input" placeholder="Título">
+
+      <label for="content">Contenido</label>
+      <textarea name="content" id="content" class="note__textarea" placeholder="Escribe aquí tu nota"></textarea>
+
+      <div class="note__buttons-create">
+        <button type="reset" class="note__cancel">Cancelar</button>
+        <button type="submit" class="note__save">Guardar</button>
+        <button type="submit" class="note__close" aria-label="cancelar">
+          <span class="material-symbols-outlined btn-cancel">
+            cancel
+          </span>
+        </button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- 
   Modal para editar una nota
 -->
 
-    <dialog class="modal__edit">
-      <header class="edit__header">
-        <h2 class="note__title">Editar Nota</h2>
-      </header>
+  <dialog class="modal__edit">
+    <header class="edit__header">
+      <h2 class="note__title">Editar Nota</h2>
+    </header>
 
-      <form method="dialog" class="edit__form">
-
-        <label for="title">Categoría</label>
-        <select name="category" id="category">
-          <option value="no-category">Sin categoría</option>
-          <option value="no-category">Hogar</option>
-          <option value="no-category">Trabajo</option>
-          <option value="no-category">Ideas</option>
-        </select>
-
-        <label for="title">Título</label>
-        <input type="text" name="title" id="title" class="note__input" placeholder="Título">
-
-        <label for="content">Contenido</label>
-        <textarea name="content" id="content" class="note__textarea" placeholder="Escribe aquí tu nota"></textarea>
-
-        <div class="note__buttons-edit">
-          <button type="reset" class="note__cancel-edit">Cancelar</button>
-          <button type="submit" class="note__save-edit">Guardar</button>
-          <button type="submit" class="note__close-edit" aria-label="cancelar">
-            <span class="material-symbols-outlined btn-cancel">
-              cancel
-            </span>
-          </button>
-        </div>
-      </form>
-    </dialog>
-  </main>
-
+    <form method="dialog" class="edit__form">
+      <label for="title">Categoría</label>
+      <select name="category" id="category">
+        <option value="no-category">Sin categoría</option>
+        <option value="no-category">Hogar</option>
+        <option value="no-category">Trabajo</option>
+        <option value="no-category">Ideas</option>
+      </select>
+      <label for="title">Título</label>
+      <input type="text" name="title" id="title" class="note__input" placeholder="Título">
+      <label for="content">Contenido</label>
+      <textarea name="content" id="content" class="note__textarea" placeholder="Escribe aquí tu nota"></textarea>
+      <div class="note__buttons-edit">
+        <button type="reset" class="note__cancel-edit">Cancelar</button>
+        <button type="submit" class="note__save-edit">Guardar</button>
+        <button type="submit" class="note__close-edit" aria-label="cancelar">
+          <span class="material-symbols-outlined btn-cancel">
+            cancel
+          </span>
+        </button>
+      </div>
+    </form>
+  </dialog>
 
 </body>
 

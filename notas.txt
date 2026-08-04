@@ -22,7 +22,6 @@ Categorías calculadas por la aplicación
 
 
 Sprint:
-Agregar título
-Agregar contenido
-Editar nota
+Crear nota
 Eliminar nota
+Editar nota
