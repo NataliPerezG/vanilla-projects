@@ -99,12 +99,11 @@
     }
 
     & .note__save-edit {
+        width: 60%;
+        height: 35px;
         background-color: var(--yellow);
     }
 
-    & .note__cancel-edit {
-        background-color: var(--pink);
-    }
 
     & .note__close-edit {
         position: absolute;

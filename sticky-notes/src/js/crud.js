@@ -11,10 +11,16 @@ const template = document.querySelector('.template__note').content;
 const fragment = document.createDocumentFragment();
 const workspace = document.querySelector('.workspace')
 const btnEdit = document.querySelector('.note__edit');
-const modalEdit = document.querySelector('.modal__edit')
+
+const modalEdit = document.querySelector('.modal__edit');
+const btnEditSave = modalEdit.querySelector('.note__save-edit');
+const editCategory = modalEdit.querySelector('#category');
+const editTitle = modalEdit.querySelector('.note__input');
+const editText = modalEdit.querySelector('.note__textarea');
 
 // global variables:
 let notes = [];
+let currentNote = null;
 
 
 // Functions
@@ -33,7 +39,6 @@ const createNewNote = () => {
         // añadir top y left para persistir la posición.
     }
     notes.push(note)
-    console.log(notes);
 }
 
 const updateWorkspace = () => {
@@ -69,11 +74,15 @@ const deleteNote = (e) => {
     updateWorkspace()
 }
 
-
 const editNote = (e) => {
-    console.log('click para editar');
+    const note = e.target.closest('.note');
+    const noteId = note.dataset.id;
+    currentNote = notes.find(note => note.id === noteId);
+    modalEdit.showModal();
+    editCategory.value = currentNote.category;
+    editTitle.value = currentNote.title;
+    editText.value = currentNote.content;
 }
-
 
 // Events:
 bntAdd.addEventListener('click', e => {
@@ -95,5 +104,14 @@ workspace.addEventListener('click', e => {
     if (e.target.classList.contains('btn-delete')) {
         deleteNote(e)
     }
+})
+
+btnEditSave.addEventListener('click', e => {
+    currentNote.category = editCategory.value;
+    currentNote.title = editTitle.value;
+    currentNote.content = editText.value;
+    updateWorkspace()
+    modalEdit.close()
+    currentNote = null;
 })
 
