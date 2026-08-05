@@ -9,7 +9,7 @@ const userContent = modalCreate.querySelector('#content');
 
 const template = document.querySelector('.template__note').content;
 const fragment = document.createDocumentFragment();
-const workspace = document.querySelector('.workspace')
+const workspace = document.querySelector('.workspace');
 const btnEdit = document.querySelector('.note__edit');
 
 const modalEdit = document.querySelector('.modal__edit');
@@ -21,7 +21,7 @@ const editText = modalEdit.querySelector('.note__textarea');
 // global variables:
 let notes = [];
 let currentNote = null;
-
+let currentZIndex = 1;
 
 // Functions
 const createNewNote = () => {
@@ -84,6 +84,11 @@ const editNote = (e) => {
     editText.value = currentNote.content;
 }
 
+const bringToFront = (note) => {
+    note.style.zIndex = currentZIndex
+    currentZIndex++
+}
+
 // Events:
 bntAdd.addEventListener('click', e => {
     modalCreate.showModal();
@@ -115,3 +120,25 @@ btnEditSave.addEventListener('click', e => {
     currentNote = null;
 })
 
+workspace.addEventListener('mousedown', e => {
+    const note = e.target.closest('.note');
+    if (!note) return
+
+    bringToFront(note)
+
+    const rectWorkspace = workspace.getBoundingClientRect();
+    const rectNote = note.getBoundingClientRect();
+    const offsetX = e.clientX - rectNote.left; //aquí da click el usuario en la nota
+    const offsetY = e.clientY - rectNote.top;
+    const moveNote = (e) => {
+        let posWorkspaceX = e.clientX - rectWorkspace.left; //posición del click dentro del workspace
+        let posWorkspaceY = e.clientY - rectWorkspace.top;
+
+        note.style.left = posWorkspaceX - offsetX + 'px'; //Aquí debe ir la esquina de la nota
+        note.style.top = posWorkspaceY - offsetY + 'px';
+    }
+    document.addEventListener('mousemove', moveNote)
+    document.addEventListener('mouseup', e => {
+        document.removeEventListener('mousemove', moveNote)
+    })
+})

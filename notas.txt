@@ -36,5 +36,5 @@ Búsqueda.
 
 
 Sprint:
-Eliminar nota
-Editar nota
+arrastrar notas
+guardar en localStorage()
