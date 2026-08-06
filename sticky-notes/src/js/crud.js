@@ -1,3 +1,4 @@
+
 // DOM references
 const bntAdd = document.querySelector('.btnAdd');
 const modalCreate = document.querySelector('.note__create');
