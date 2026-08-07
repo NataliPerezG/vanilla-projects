@@ -1,18 +1,21 @@
 [ ] ToDo List
 [ ] Tablero Kanban
-[ ] Notas Adhesivas
+[60%] Notas Adhesivas
 [ ] App del clima
 [ ] App de recetas
 [ ] Carrito de compras
 [ ] Página web completa
 [ ] Formularios en varios pasos
 [ ] Sanke
-[ ] Tic tac toe
+[100%] Tic tac toe
 [ ] juego de pares
 [ ] Piedra, papel o tijera
 [ ] Página 404
 [ ] Buscador dinámico con autocompletado
 [ ] Aplicación con varias pestañas
+[ ] Simón Dice.
+[ ] Mastermind.
+[ ] Buscaminas.
 
 
 
