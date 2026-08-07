@@ -7,5 +7,77 @@
 }
 
 body {
-    background-color: oldlace;
+    background-color: rgb(90, 88, 88);
+    color: #b7b3b3;
+}
+
+main {
+    width: 70%;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+form {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.userInput {
+    flex: 1;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.addTask {
+    width: 20%;
+}
+
+.containerTasks {
+    padding: 20px;
+    margin: 40px auto;
+    min-height: 40dvh;
+    background-color: #666;
+}
+
+.task {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+    background-color: palegoldenrod;
+    height: 5dvh;
+    margin: 10px auto;
+}
+
+.completed>p {
+    text-decoration: line-through;
+}
+
+.taskText {
+    flex: 1;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.buttonsTask {
+    width: 25%;
+    display: flex;
+    gap: 5px;
+    padding: 3px 5px;
+}
+
+.buttonsTask>button {
+    width: 50%;
+}
+
+.editing {
+    opacity: .5;
 }

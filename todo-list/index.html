@@ -11,43 +11,26 @@
 
 <body>
 
-  <main class="container">
-    <h1>TolDo List App</h1>
-
-    <header class="status">
-      <div class="status__progress">
-        <h2 class="status__message">Mantente enfocado!</h2>
-        <div class="status__progress-bar">
-          <div class="status__progress-fill"></div>
-        </div>
-      </div>
-      <section class="status__info">
-        <h2 class="status__info-number">
-          <span class="status__completed-tasks">3</span> /
-          <span class="status__total-tasks">5</span>
-        </h2>
-      </section>
-    </header>
-
-    <form class="form">
-      <input class="form__user-task" type="text">
-      <button class="form__btn-add" type="submit"> Agregar</button>
+  <main>
+    <form>
+      <input type="text" class="userInput" placeholder="Nueva Tarea">
+      <button class="addTask">Crear</button>
     </form>
-
-    <section class="tasks">
-      <article class="task">
-        <div class="task__message">
-          <button type="button" class="task__btn-completed">Tarea completa</button>
-          <p class="task__text">Tarea 1</p>
-        </div>
-        <div class="task__actions">
-          <button type="button" class="task__btn-edit">Editar</button>
-          <button type="button" class="task__btn-delete">Borrar</button>
-        </div>
-      </article>
-    </section>
-
+    <ul class="containerTasks">
+    </ul>
   </main>
+
+  <template class="templateTask">
+    <li class="task" data-task-id="0">
+      <input type="checkbox" name="check" class="check">
+      <p class="taskText">Tarea desde html</p>
+      <div class="buttonsTask">
+        <button class="editTask">Editar</button>
+        <button class="deleteTask">Borrar</button>
+      </div>
+    </li>
+  </template>
+</body>
 
 </body>
 

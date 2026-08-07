@@ -1,4 +1,4 @@
-[ ] ToDo List
+[50%] ToDo List
 [ ] Tablero Kanban
 [60%] Notas Adhesivas
 [ ] App del clima
@@ -12,10 +12,8 @@
 [ ] Piedra, papel o tijera
 [ ] Página 404
 [ ] Buscador dinámico con autocompletado
-[ ] Aplicación con varias pestañas
-[ ] Simón Dice.
-[ ] Mastermind.
-[ ] Buscaminas.
+[ ] Aplicación con varias pestañas.
+
 
 
 

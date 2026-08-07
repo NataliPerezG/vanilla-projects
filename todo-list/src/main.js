@@ -1,3 +1,3 @@
 import './style.css';
+import './js/app.js';
 
-console.log('vinculado');
