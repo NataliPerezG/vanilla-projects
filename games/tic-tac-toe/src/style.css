@@ -1,0 +1,72 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+}
+
+main {
+    width: clamp(500px, 70%, 600px);
+    margin: 30px auto;
+}
+
+
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    background-color: #373c3b;
+    width: max-content;
+    /* Ajusta el padre al tamaño exacto del grid */
+    margin: 50px auto;
+}
+
+.celda {
+    background-color: #a2aead;
+    aspect-ratio: 1;
+    /* Fuerza a que sean cuadrados perfectos (1:1) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #373c3b;
+    cursor: pointer;
+}
+
+.containerMensaje {
+    width: clamp(300px, 70%, 500px);
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #a2aead;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    & .reiniciar {
+        margin: 0 auto;
+        width: 50%;
+        height: 40px;
+        background-color: #a2aead;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        transition: box-shadow 300ms linear;
+
+        &:hover {
+            cursor: pointer;
+            box-shadow: 0 3px 7px 3px #ddd;
+        }
+    }
+}
