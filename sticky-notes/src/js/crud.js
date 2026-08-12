@@ -21,10 +21,10 @@ const editText = modalEdit.querySelector('.note__textarea');
 
 // LocalStorage
 const getNotes = () => JSON.parse(localStorage.getItem('notes')) || [];
-const saveNotes = () => { localStorage.setItem('notes', JSON.stringify(notes)) }
+const saveNotes = () => { localStorage.setItem('notes', JSON.stringify(notes)) };
 
 // Inicialización de datos
-let notes = getNotes()
+export let notes = getNotes();
 
 // global variables:
 let currentNote = null;
@@ -55,7 +55,6 @@ const createNewNote = () => {
     initialLeft += move;
 
     notes.push(note);
-    saveNotes()
 }
 
 const updateWorkspace = () => {
@@ -81,7 +80,7 @@ const bringToFront = (noteElement, noteData) => {
     currentZIndex++
     noteElement.style.zIndex = currentZIndex;
     noteData.zIndex = currentZIndex; //guarda el index en el objeto
-    saveNotes()
+    saveNotes();
 }
 
 const deleteNote = (e) => {
@@ -89,8 +88,8 @@ const deleteNote = (e) => {
     if (!note) return;
     const id = note.dataset.id;
     notes = notes.filter(note => note.id !== id);
+    updateWorkspace();
     saveNotes();
-    updateWorkspace()
 }
 
 const editNote = (e) => {
@@ -114,6 +113,7 @@ bntAdd.addEventListener('click', e => {
 btnSaveNewNote.addEventListener('click', e => {
     createNewNote();
     updateWorkspace();
+    saveNotes()
     modalCreate.querySelector('.create__form').reset()// limpia el form del dialog para hacer una nueva nota
     modalCreate.close();
 })
@@ -188,6 +188,7 @@ workspace.addEventListener('mousedown', e => {
         // Guardamos las coordenadas finales
         noteData.left = posNoteX;
         noteData.top = posNoteY;
+        updateWorkspace()
         saveNotes();
     };
 
