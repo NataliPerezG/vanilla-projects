@@ -1,17 +1,15 @@
-
 // DOM references
 const bntAdd = document.querySelector('.btnAdd');
 const modalCreate = document.querySelector('.note__create');
 const btnSaveNewNote = modalCreate.querySelector('.note__save');
 
-const userCategory = modalCreate.querySelector('#category')
+const userCategory = modalCreate.querySelector('#category');
 const userTitle = modalCreate.querySelector('.note__input');
 const userContent = modalCreate.querySelector('#content');
 
 const template = document.querySelector('.template__note').content;
 const fragment = document.createDocumentFragment();
 const workspace = document.querySelector('.workspace');
-const btnEdit = document.querySelector('.note__edit');
 
 const modalEdit = document.querySelector('.modal__edit');
 const btnEditSave = modalEdit.querySelector('.note__save-edit');
@@ -21,7 +19,9 @@ const editText = modalEdit.querySelector('.note__textarea');
 
 // LocalStorage
 const getNotes = () => JSON.parse(localStorage.getItem('notes')) || [];
-const saveNotes = () => { localStorage.setItem('notes', JSON.stringify(notes)) };
+const saveNotes = () => {
+    localStorage.setItem('notes', JSON.stringify(notes));
+};
 
 // Inicialización de datos
 export let notes = getNotes();
@@ -31,16 +31,16 @@ let currentNote = null;
 let currentZIndex = 1;
 let initialTop = 10;
 let initialLeft = 10;
-let move = 10
+const move = 10;
 
 // Functions
 const createNewNote = () => {
-    const category = userCategory.value
+    const category = userCategory.value;
     const title = userTitle.value;
     const content = userContent.value;
     const id = crypto.randomUUID(); // Crea un id único.
 
-    currentZIndex++
+    currentZIndex++;
     const note = {
         id,
         category,
@@ -55,11 +55,11 @@ const createNewNote = () => {
     initialLeft += move;
 
     notes.push(note);
-}
+};
 
 const updateWorkspace = () => {
-    workspace.innerHTML = "";
-    notes.forEach(note => {
+    workspace.innerHTML = '';
+    notes.forEach((note) => {
         const clone = template.cloneNode(true);
         const article = clone.querySelector('.note');
         article.dataset.id = note.id;
@@ -72,63 +72,70 @@ const updateWorkspace = () => {
         article.style.zIndex = note.zIndex || 1;
 
         fragment.append(article);
-    })
+    });
     workspace.append(fragment);
-}
+};
 
 const bringToFront = (noteElement, noteData) => {
-    currentZIndex++
+    const mayor = Math.max(...notes.map((nota) => nota.zIndex)); // Busca el elemento que tiene el zIndex mayor
+    currentZIndex = mayor + 1;
     noteElement.style.zIndex = currentZIndex;
     noteData.zIndex = currentZIndex; //guarda el index en el objeto
     saveNotes();
-}
+};
 
 const deleteNote = (e) => {
     const note = e.target.closest('.note');
-    if (!note) return;
+    if (!note) {
+        return;
+    }
     const id = note.dataset.id;
-    notes = notes.filter(note => note.id !== id);
+    notes = notes.filter((note) => note.id !== id);
     updateWorkspace();
     saveNotes();
-}
+};
 
 const editNote = (e) => {
     const note = e.target.closest('.note');
-    if (!note) return;
+    if (!note) {
+        return;
+    }
     const noteId = note.dataset.id;
-    currentNote = notes.find(note => note.id === noteId);
+    currentNote = notes.find((note) => note.id === noteId);
 
     editCategory.value = currentNote.category;
     editTitle.value = currentNote.title;
     editText.value = currentNote.content;
 
     modalEdit.showModal();
-}
+};
 
 // Events:
-bntAdd.addEventListener('click', e => {
+bntAdd.addEventListener('click', () => {
     modalCreate.showModal();
-})
+});
 
-btnSaveNewNote.addEventListener('click', e => {
+btnSaveNewNote.addEventListener('click', () => {
     createNewNote();
     updateWorkspace();
-    saveNotes()
-    modalCreate.querySelector('.create__form').reset()// limpia el form del dialog para hacer una nueva nota
+    saveNotes();
+    modalCreate.querySelector('.create__form').reset(); // limpia el form del dialog para hacer una nueva nota
     modalCreate.close();
-})
+});
 
-workspace.addEventListener('click', e => {
+workspace.addEventListener('click', (e) => {
     if (e.target.classList.contains('btn-edit')) {
-        editNote(e)
+        editNote(e);
     }
     if (e.target.classList.contains('btn-delete')) {
-        deleteNote(e)
+        deleteNote(e);
     }
-})
+});
 
-btnEditSave.addEventListener('click', e => {
-    if (!currentNote) return
+btnEditSave.addEventListener('click', () => {
+    if (!currentNote) {
+        return;
+    }
     currentNote.category = editCategory.value;
     currentNote.title = editTitle.value;
     currentNote.content = editText.value;
@@ -136,7 +143,7 @@ btnEditSave.addEventListener('click', e => {
     updateWorkspace();
     modalEdit.close();
     currentNote = null;
-})
+});
 
 // ======================================================
 // Drag & Drop de las notas
@@ -145,22 +152,26 @@ btnEditSave.addEventListener('click', e => {
 // el estado de la aplicación cuando termina el arrastre.
 // ======================================================
 
-workspace.addEventListener('mousedown', e => {
+workspace.addEventListener('mousedown', (e) => {
     const note = e.target.closest('.note');
-    if (!note) return
+    if (!note) {
+        return;
+    }
     // Si se hace click en un botón de editar/eliminar, evitamos iniciar el arrastre
     if (e.target.classList.contains('btn-edit') || e.target.classList.contains('btn-delete')) {
         return;
     }
 
     const noteId = note.dataset.id;
-    const noteData = notes.find(n => n.id === noteId);
-    if (!noteData) return;
+    const noteData = notes.find((n) => n.id === noteId);
+    if (!noteData) {
+        return;
+    }
 
     // Traer al frente y guardar el index
-    bringToFront(note, noteData)
+    bringToFront(note, noteData);
 
-    // Inicializamos las posiciones con los valores actuales 
+    // Inicializamos las posiciones con los valores actuales
     // para evitar 'undefined' si no hay movimiento
     let posNoteX = noteData.left;
     let posNoteY = noteData.top;
@@ -171,14 +182,14 @@ workspace.addEventListener('mousedown', e => {
     const offsetY = e.clientY - rectNote.top;
 
     const moveNote = (moveEvent) => {
-        let posWorkspaceX = moveEvent.clientX - rectWorkspace.left; //posición del click dentro del workspace
-        let posWorkspaceY = moveEvent.clientY - rectWorkspace.top;
+        const posWorkspaceX = moveEvent.clientX - rectWorkspace.left; //posición del click dentro del workspace
+        const posWorkspaceY = moveEvent.clientY - rectWorkspace.top;
         posNoteX = posWorkspaceX - offsetX; //Aquí debe ir la esquina de la nota
         posNoteY = posWorkspaceY - offsetY;
 
         note.style.left = posNoteX + 'px';
         note.style.top = posNoteY + 'px';
-    }
+    };
 
     const stopMove = () => {
         // Limpiamos los eventos al soltar el click
@@ -188,13 +199,12 @@ workspace.addEventListener('mousedown', e => {
         // Guardamos las coordenadas finales
         noteData.left = posNoteX;
         noteData.top = posNoteY;
-        updateWorkspace()
+        updateWorkspace();
         saveNotes();
     };
 
-    document.addEventListener('mousemove', moveNote)
-    document.addEventListener('mouseup', stopMove)
-})
+    document.addEventListener('mousemove', moveNote);
+    document.addEventListener('mouseup', stopMove);
+});
 
-
-updateWorkspace()
+updateWorkspace();
