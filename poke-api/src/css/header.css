@@ -1,0 +1,46 @@
+@import './common.css';
+
+header {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  box-shadow: 0 0 5px rgb(2% 2% 2% / 30%);
+  background-color: #fff;
+
+  img {
+    max-width: 200px;
+  }
+}
+
+nav>ul {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+
+  li {
+    list-style: none;
+  }
+
+  button {
+    min-width: 110px;
+    font-family: "Iceland", sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    border-radius: 100vmax;
+    border: var(--border);
+    padding: 5px 3px;
+    transition: 300ms box-shadow, 300ms transform;
+    background: hsl(217, 40%, 30%);
+    color: hsl(217, 40%, 80%);
+
+    &:hover {
+      cursor: pointer;
+      box-shadow: 0 1px 5px rgba(228, 170, 9, 0.848);
+      transform: scale(1.1);
+    }
+  }
+}

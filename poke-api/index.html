@@ -1,13 +1,45 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>poke-api</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type="module" src="/src/main.js"></script>
+  <title>poke-api</title>
+</head>
+
+<body>
+  <header>
+    <img src="/src/assets/images/pokeapi_logo.png" alt="Logo Poke-api">
+
+    <nav>
+      <ul class="categories">
+        <li><button id="all">ALL</button></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="cards"></section>
+  </main>
+
+  <template id="card-template">
+    <article class="card">
+      <h2>#001</h2>
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/1.png" alt="
+        imagen del pokemon">
+      <div class="name">
+        <p class="id-pok">#001</p>
+        <p class="name-pok">nombre largo</p>
+      </div>
+      <div class="categories">
+      </div>
+      <div class="data">
+        <p class="weight"></p>
+        <p class="height"></p>
+      </div>
+    </article>
+  </template>
+</body>
+
 </html>
