@@ -1,0 +1,35 @@
+.board {
+  --boardSize: 15;
+  width: 500px;
+  height: 500px;
+  margin: 30px auto;
+  background: repeating-linear-gradient(90deg,
+      olive 40px,
+      white 40px);
+  display: grid;
+  grid-template-columns: repeat(var(--boardSize), 1fr);
+  grid-template-rows: repeat(var(--boardSize), 1fr);
+  position: relative;
+}
+
+.char {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(50% 0% 75% / 30%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.snake {
+  background-color: rgb(67, 106, 225);
+  border-radius: 15px;
+}
+
+.food {
+  background-color: indianred;
+}
