@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script defer type="module" src="main.js"></script>
+
+  <title>test</title>
+</head>
+
+<body>
+  <main>
+    <form>
+
+      <input type="range" value="5" min="2" max="20">
+      <label>Longitud: <span class="range">5</span> caracteres</label>
+
+      <input type="checkbox" id="minus" value="abcdefghijklmnopqrstuvwxyz" checked>
+      <label for="minus">Incluir minúsculas</label>
+      <input type="checkbox" id="mayus" value="ABCDEFGHIJKLMNOPQRSTUVWXYZ">
+      <label for="mayus">Incluir mayúsculas</label>
+      <input type="checkbox" id="numbers" value="0123456789">
+      <label for="numbers">Incluir números</label>
+      <input type="checkbox" id="symbols" value="@#¢$%&/()?¿¡!≠">
+      <label for="symbols">Incluir caracteres especiales</label>
+      <button>Generar contraseña</button>
+    </form>
+    <div>
+      <h1 class="password"></h1>
+      <button type="button" class="btnCopy">Copiar</button>
+
+    </div>
+  </main>
+  </div>
+
+</body>
+
+</html>
