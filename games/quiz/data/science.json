@@ -1,0 +1,602 @@
+{
+  "categoryId": "science",
+  "categoryName": "Ciencia",
+  "levels": {
+    "basic": [
+      {
+        "id": "scien-b-001",
+        "question": "¿Cuál es el planeta más cercano al Sol?",
+        "options": ["Venus", "Marte", "Mercurio", "Júpiters"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-b-002",
+        "question": "¿Qué gas absorben las plantas durante la fotosíntesis?",
+        "options": ["Oxígeno", "Dióxido de carbono", "Nitrógeno", "Hidrógeno"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-b-003",
+        "question": "¿Cuál es el símbolo químico del agua?",
+        "options": ["H2O", "CO2", "NaCl", "O2"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "scien-b-004",
+        "question": "¿Cuántos huesos tiene aproximadamente el cuerpo humano adulto?",
+        "options": ["186", "206", "300", "250"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-b-005",
+        "question": "¿Qué fuerza nos mantiene pegados a la superficie de la Tierra?",
+        "options": [
+          "Fuerza centrífuga",
+          "Fuerza magnética",
+          "Gravedad",
+          "Fuerza nuclear"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-b-006",
+        "question": "¿Cuál es el órgano principal del sistema circulatorio humano?",
+        "options": ["Pulmón", "Cerebro", "Hígado", "Corazón"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "scien-b-007",
+        "question": "¿Qué instrumento se utiliza para medir la temperatura?",
+        "options": ["Barómetro", "Termómetro", "Anemómetro", "Higrómetro"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-b-008",
+        "question": "¿Cuál es el satélite natural de la Tierra?",
+        "options": ["Titán", "La Luna", "Europa", "Fobos"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-b-009",
+        "question": "¿Qué parte de la célula contiene el material genético (ADN)?",
+        "options": ["Citoplasma", "Membrana", "Núcleo", "Mitocondria"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-b-010",
+        "question": "¿A qué temperatura hierve el agua a nivel del mar en grados Celsius?",
+        "options": ["90 °C", "100 °C", "110 °C", "120 °C"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-b-011",
+        "question": "¿Cuál es el mamífero más grande del mundo?",
+        "options": [
+          "Elefante africano",
+          "Ballena azul",
+          "Jirafa",
+          "Tiburón ballena"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-b-012",
+        "question": "¿Qué tipo de energía proviene de la luz del Sol?",
+        "options": [
+          "Energía eólica",
+          "Energía solar",
+          "Energía geotérmica",
+          "Energía nuclear"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-b-013",
+        "question": "¿Cuál es el metal líquido a temperatura ambiente?",
+        "options": ["Hierro", "Cobre", "Mercurio", "Plomo"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-b-014",
+        "question": "¿Qué animales nacen de huevos?",
+        "options": ["Mamíferos", "Ovíparos", "Vivíparos", "Marsupiales"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-b-015",
+        "question": "¿Cuál es el planeta más grande del sistema solar?",
+        "options": ["Saturno", "Neptuno", "Júpiter", "Urano"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-b-016",
+        "question": "¿Qué pigmento le da el color verde a las hojas de las plantas?",
+        "options": ["Caroteno", "Clorofila", "Melanina", "Antocianina"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-b-017",
+        "question": "¿Qué sentido nos permite percibir los olores?",
+        "options": ["Gusto", "Tacto", "Olfato", "Oído"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-b-018",
+        "question": "¿Qué gas es indispensable para la respiración humana?",
+        "options": ["Oxígeno", "Helio", "Metano", "Argón"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "scien-b-019",
+        "question": "¿En qué estado se encuentra el hielo?",
+        "options": ["Líquido", "Gaseoso", "Sólido", "Plasma"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-b-020",
+        "question": "¿Qué rama de la ciencia estudia las estrellas y los planetas?",
+        "options": ["Geología", "Biología", "Astronomía", "Química"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-b-021",
+        "question": "¿Cuál es la velocidad aproximada de la luz en el vacío?",
+        "options": [
+          "300,000 km/s",
+          "150,000 km/s",
+          "1,000,000 km/s",
+          "30,000 km/s"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "scien-b-022",
+        "question": "¿Qué órgano filtra la sangre y produce la orina?",
+        "options": ["Hígado", "Riñón", "Páncreas", "Estómago"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-b-023",
+        "question": "¿Qué instrumento magnético sirve para orientarse señalando al Norte?",
+        "options": ["Telescopio", "Sextante", "Brújula", "Radar"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-b-024",
+        "question": "¿Qué animal es un reptil?",
+        "options": ["Frog", "Cocodrilo", "Salamandra", "Sapo"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-b-025",
+        "question": "¿Cuál es el proceso por el cual el agua líquida se convierte en vapor?",
+        "options": [
+          "Condensación",
+          "Evaporación",
+          "Solidificación",
+          "Sublimación"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "scien-i-001",
+        "question": "¿Cuál es el elemento químico representado por el símbolo 'O'?",
+        "options": ["Oro", "Osmeo", "Oxígeno", "Oganesón"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-i-002",
+        "question": "¿Quién propuso la Teoría de la Relatividad?",
+        "options": [
+          "Isaac Newton",
+          "Albert Einstein",
+          "Niels Bohr",
+          "Galileo Galilei"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-i-003",
+        "question": "¿Qué partícula subatómica tiene carga eléctrica negativa?",
+        "options": ["Protón", "Neutrón", "Electrón", "Positrón"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-i-004",
+        "question": "¿Cuál es la unidad básica de la estructura vegetal y animal?",
+        "options": ["Tejido", "Órgano", "Célula", "Molécula"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-i-005",
+        "question": "¿Qué escala mide la magnitud de los terremotos?",
+        "options": [
+          "Escala de Fujita",
+          "Escala de Richter",
+          "Escala de Beaufort",
+          "Escala de Mohs"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-i-006",
+        "question": "¿Qué gas es el más abundante en la atmósfera terrestre?",
+        "options": ["Oxígeno", "Dióxido de carbono", "Nitrógeno", "Argón"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-i-007",
+        "question": "¿Quién desarrolló la teoría de la evolución mediante selección natural?",
+        "options": [
+          "Gregor Mendel",
+          "Charles Darwin",
+          "Louis Pasteur",
+          "Jean-Baptiste Lamarck"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-i-008",
+        "question": "¿Cuál es el ácido presente en el estómago humano que ayuda a la digestión?",
+        "options": [
+          "Ácido sulfúrico",
+          "Ácido nítrico",
+          "Ácido clorhídrico",
+          "Ácido acético"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-i-009",
+        "question": "¿Qué parte de la célula es conocida como la 'central de energía'?",
+        "options": ["Ribosoma", "Aparato de Golgi", "Mitocondria", "Lisosoma"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-i-010",
+        "question": "¿Cuál es el símbolo químico del Oro?",
+        "options": ["Or", "Au", "Ag", "Fe"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-i-011",
+        "question": "¿Qué capa atmosférica protege a la Tierra de los rayos ultravioleta del Sol?",
+        "options": ["Troposfera", "Capa de ozono", "Termosfera", "Exosfera"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-i-012",
+        "question": "¿Qué científico descubrió la penicilina?",
+        "options": [
+          "Alexander Fleming",
+          "Edward Jenner",
+          "Robert Koch",
+          "Louis Pasteur"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "scien-i-013",
+        "question": "¿Qué tipo de enlace químico implica compartir electrones entre átomos?",
+        "options": [
+          "Enlace iónico",
+          "Enlace covalente",
+          "Enlace metálico",
+          "Puente de hidrógeno"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-i-014",
+        "question": "¿Cuál es el planeta del sistema solar conocido por sus prominentes anillos?",
+        "options": ["Júpiter", "Saturno", "Urano", "Neptuno"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-i-015",
+        "question": "¿Cuál es la función principal de los glóbulos rojos en la sangre?",
+        "options": [
+          "Combatir infecciones",
+          "Coagular la sangre",
+          "Transportar oxígeno",
+          "Digerir nutrientes"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-i-016",
+        "question": "¿Qué científico formuló las leyes de la herencia genética usando plantas de guisante?",
+        "options": [
+          "Gregor Mendel",
+          "Watson y Crick",
+          "Thomas Morgan",
+          "Rosalind Franklin"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "scien-i-017",
+        "question": "¿Qué escala mide la dureza de los minerales del 1 al 10?",
+        "options": [
+          "Escala de Mohs",
+          "Escala de Brinell",
+          "Escala de Rockwell",
+          "Escala de Vickers"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "scien-i-018",
+        "question": "¿Qué planeta del sistema solar es apodado el 'Planeta Rojo'?",
+        "options": ["Venus", "Marte", "Mercurio", "Júpiter"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-i-019",
+        "question": "¿Qué ley física establece que a toda acción corresponde una reacción de igual magnitud y sentido opuesto?",
+        "options": [
+          "Primera Ley de Newton",
+          "Segunda Ley de Newton",
+          "Tercera Ley de Newton",
+          "Ley de Gravitación"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-i-020",
+        "question": "¿Cuál es el PH neutro en la escala de acidez?",
+        "options": ["0", "7", "14", "5"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-i-021",
+        "question": "¿Qué glándula del cuerpo humano regula el metabolismo?",
+        "options": ["Hipófisis", "Tiroides", "Páncreas", "Suprarrenal"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-i-022",
+        "question": "¿Qué fenómeno óptico separa la luz blanca en sus colores componentes al pasar por un prisma?",
+        "options": [
+          "Refracción y dispersión",
+          "Reflexión",
+          "Difracción",
+          "Polarización"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "scien-i-023",
+        "question": "¿Qué partícula subatómica no tiene carga eléctrica?",
+        "options": ["Protón", "Electrón", "Neutrón", "Fotón"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-i-024",
+        "question": "¿Cuál es la era geológica conocida como la 'Era de los Dinosaurios'?",
+        "options": ["Cenozoica", "Mesozoica", "Paleozoica", "Precámbrica"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-i-025",
+        "question": "¿Qué proceso convierte el glucógeno en glucosa en el cuerpo?",
+        "options": [
+          "Glucólisis",
+          "Glucogenólisis",
+          "Gluconeogénesis",
+          "Lipólisis"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "advanced": [
+      {
+        "id": "scien-a-001",
+        "question": "¿Cuál es el elemento químico más abundante en el universo?",
+        "options": ["Helio", "Hidrógeno", "Oxígeno", "Carbono"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-a-002",
+        "question": "¿Qué postulado afirma que es imposible conocer simultáneamente la posición y el momento de una partícula con absoluta precisión?",
+        "options": [
+          "Efecto Fotoeléctrico",
+          "Principio de Incertidumbre de Heisenberg",
+          "Ecuación de Schrödinger",
+          "Efecto Compton"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-a-003",
+        "question": "¿Qué enzima es clave en la replicación del ADN para desenrollar la doble hélice?",
+        "options": ["ADN Polimerasa", "Helicasa", "Ligasa", "ARN Primasa"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-a-004",
+        "question": "¿Cuál es la constante física fundamental representada por la letra 'c'?",
+        "options": [
+          "Carga del electrón",
+          "Constante de Gravitación",
+          "Velocidad de la luz en el vacío",
+          "Constante de Planck"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-a-005",
+        "question": "¿Qué tipo de radiación electromagnética tiene la frecuencia más alta y la longitud de onda más corta?",
+        "options": [
+          "Rayos X",
+          "Luz ultravioleta",
+          "Rayos Gamma",
+          "Odas de radio"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-a-006",
+        "question": "¿Qué organelo celular contiene enzimas digestivas ácidas para degradar material celular oxidado o extraño?",
+        "options": ["Peroxisoma", "Lisosoma", "Glioxisoma", "Endosoma"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-a-007",
+        "question": "¿Qué ley de la termodinámica establece que la entropía de un sistema aislado siempre aumenta con el tiempo?",
+        "options": ["Primera Ley", "Segunda Ley", "Tercera Ley", "Ley Cero"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-a-008",
+        "question": "¿Qué científica física y química fue pionera en el estudio de la radiactividad y ganó dos premios Nobel en distintas especialidades?",
+        "options": [
+          "Lise Meitner",
+          "Marie Curie",
+          "Rosalind Franklin",
+          "Chien-Shiung Wu"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-a-009",
+        "question": "¿Qué partícula elemental propuesta por la física cuántica transmite la fuerza de la gravedad hipotéticamente?",
+        "options": ["Gluón", "Bosón de Higgs", "Gravitón", "Fotón"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-a-010",
+        "question": "¿Qué ciclo metabólico convierte la acetil-CoA en dióxido de carbono y energía (ATP, NADH) en la matriz mitocondrial?",
+        "options": [
+          "Ciclo de Krebs",
+          "Ciclo de Calvin",
+          "Glucólisis",
+          "Vía de las pentosas fosfato"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "scien-a-011",
+        "question": "¿Cuál es la partícula responsable de otorgar masa a otras partículas según el Modelo Estándar?",
+        "options": ["Neutrino", "Bosón de Higgs", "Quark Top", "Muón"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-a-012",
+        "question": "¿Qué ecuación famosa de la mecánica cuántica describe cómo cambia el estado cuántico de un sistema físico con el tiempo?",
+        "options": [
+          "Ecuación de Maxwell",
+          "Ecuación de Schrödinger",
+          "Ecuación de Dirac",
+          "Ecuación de Euler"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-a-013",
+        "question": "¿Cuál es la capa celular que da origen al sistema nervioso y la epidermis durante el desarrollo embrionario?",
+        "options": ["Endodermo", "Mesodermo", "Ectodermo", "Trofoblasto"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-a-014",
+        "question": "¿Qué efecto físico explica el cambio de frecuencia percibido en una onda producido por el movimiento relativo de la fuente respecto a su observador?",
+        "options": [
+          "Efecto Doppler",
+          "Efecto Raman",
+          "Efecto Tyndall",
+          "Efecto Zeeman"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "scien-a-015",
+        "question": "¿Cuál es el elemento químico más denso que existe de forma natural?",
+        "options": ["Platino", "Os mio", "Uranio", "Iridio"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-a-016",
+        "question": "¿Qué aminoácido inicia la síntesis de proteínas en la mayoría de los eucariotas (codón de inicio AUG)?",
+        "options": ["Alanina", "Metionina", "Valina", "Leucina"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-a-017",
+        "question": "¿Qué técnica espectroscópica se basa en la absorción de radiación electromagnética por núcleos atómicos en presencia de un campo magnético?",
+        "options": [
+          "RMN (Resonancia Magnética Nuclear)",
+          "Espectrometría de masas",
+          "Cromatografía",
+          "Espectrofotometría UV"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "scien-a-018",
+        "question": "¿Qué límite astrofísico determina la masa máxima que puede tener una estrella enana blanca antes de colapsar en una estrella de neutrones?",
+        "options": [
+          "Límite de Roche",
+          "Límite de Chandrasekhar",
+          "Horizonte de Sucesos",
+          "Límite de Eddington"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-a-019",
+        "question": "¿Qué tipo de ARN transporta los aminoácidos al ribosoma durante la traducción sintética?",
+        "options": ["ARNm", "ARNr", "ARNt", "snARN"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-a-020",
+        "question": "¿Qué teoría cosmológica propone que el universo atravesó una fase de expansión extremadamente rápida en sus primeros instantes?",
+        "options": [
+          "Teoría del Estado Estacionario",
+          "Teoría Inflacionaria",
+          "Teoría del Universo Oscilante",
+          "Modelo de Milne"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-a-021",
+        "question": "¿Qué gas noble tiene el número atómico más alto entre los elementos estables presentes naturalmente?",
+        "options": ["Kriptón", "Xenón", "Radón", "Argón"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "scien-a-022",
+        "question": "¿Qué estructura celular bacteriana permite la transferencia de ADN conjugativo entre células?",
+        "options": ["Pili sexual", "Flagelo", "Cápsula", "Fimbria"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "scien-a-023",
+        "question": "¿Qué experimento de 1887 demostró la no existencia del 'éter luminífero' y respaldó la constancia de la velocidad de la luz?",
+        "options": [
+          "Experimento de la doble rendija",
+          "Experimento de Michelson-Morley",
+          "Experimento de Cavendish",
+          "Experimento de Stern-Gerlach"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-a-024",
+        "question": "¿Qué hormona peptídica sintetizada por las células alfa del páncreas eleva los niveles de glucosa en sangre?",
+        "options": ["Insulina", "Glucagón", "Somatostatina", "Cortisol"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "scien-a-025",
+        "question": "¿Cuál es la unidad del Sistema Internacional para medir la actividad catalítica de una enzima?",
+        "options": ["Katal", "Joule", "Pascal", "Becquerel"],
+        "correctAnswerIndex": 0
+      }
+    ]
+  }
+}

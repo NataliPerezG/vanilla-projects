@@ -1,0 +1,687 @@
+{
+  "categoryId": "history",
+  "categoryName": "Historia",
+  "levels": {
+    "basic": [
+      {
+        "id": "hist-b-001",
+        "question": "¿En qué año ocurrió el descubrimiento de América por parte de Cristóbal Colón?",
+        "options": ["1492", "1500", "1488", "1512"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-b-002",
+        "question": "¿Quién fue el primer presidente de los Estados Unidos?",
+        "options": [
+          "Abraham Lincoln",
+          "George Washington",
+          "Thomas Jefferson",
+          "John Adams"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-b-003",
+        "question": "¿En qué país se construyeron las famosas pirámides de Guiza?",
+        "options": ["Grecia", "México", "Egipto", "Perú"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "hist-b-004",
+        "question": "¿Qué importante evento histórico comenzó en el año 1939 y terminó en 1945?",
+        "options": [
+          "La Primera Guerra Mundial",
+          "La Revolución Rusa",
+          "La Guerra Fría",
+          "La Segunda Guerra Mundial"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "hist-b-005",
+        "question": "¿Cuál fue el imperio gobernado por Julio César?",
+        "options": [
+          "Imperio Romano",
+          "Imperio Griego",
+          "Imperio Otomano",
+          "Imperio Persa"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-b-006",
+        "question": "¿En qué país nació Napoleón Bonaparte?",
+        "options": ["Italia", "Francia", "España", "Inglaterra"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-b-007",
+        "question": "¿Qué importante estructura cayó el 9 de noviembre de 1989 dividiendo una famosa ciudad alemana?",
+        "options": [
+          "La Muralla China",
+          "El Muro de Berlín",
+          "El Muro de las Lamentaciones",
+          "El Muro del Kremlin"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-b-008",
+        "question": "¿Cuál fue la civilización conocida por construir Machu Picchu?",
+        "options": ["Azteca", "Maya", "Inca", "Mapuche"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "hist-b-009",
+        "question": "¿Quién pintó la célebre obra de la Mona Lisa durante el Renacimiento?",
+        "options": ["Miguel Ángel", "Rafael", "Donatello", "Leonardo da Vinci"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "hist-b-010",
+        "question": "¿En qué barco viajó Cristóbal Colón comandando la expedición de 1492 junto a La Pinta y La Niña?",
+        "options": [
+          "La Santa María",
+          "El Victoria",
+          "El Trinidad",
+          "El San Gabriel"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-b-011",
+        "question": "¿Cómo se llamaba el sistema político y social dominante en la Europa medieval basado en siervos y señores?",
+        "options": ["Capitalismo", "Feudalismo", "Esclavismo", "Socialismo"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-b-012",
+        "question": "¿Quién fue el famoso rey del antiguo Egipto conocido por la tumba intacta hallada en 1922?",
+        "options": ["Ramsés II", "Akenatón", "Tutankamón", "Cleopatra"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "hist-b-013",
+        "question": "¿Qué barco británico de pasajeros se hundió tras chocar con un iceberg en 1912?",
+        "options": ["Britannic", "Lusitania", "Olympic", "Titanic"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "hist-b-014",
+        "question": "¿Cuál fue el imperio conquistado por el español Hernán Cortés en el siglo XVI?",
+        "options": [
+          "Imperio Azteca",
+          "Imperio Inca",
+          "Imperio Maya",
+          "Imperio Guaraní"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-b-015",
+        "question": "¿Qué líder sudafricano luchó contra el Apartheid y fue presidente tras salir de prisión?",
+        "options": [
+          "Kofi Annan",
+          "Nelson Mandela",
+          "Desmond Tutu",
+          "Patrice Lumumba"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-b-016",
+        "question": "¿En qué continente se desarrollaron las civilizaciones maya y azteca?",
+        "options": ["África", "Europa", "América", "Asia"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "hist-b-017",
+        "question": "¿Qué famoso monumento conmemorativo se encuentra en París y fue construido para la Exposición Universal de 1889?",
+        "options": [
+          "El Coliseo",
+          "La Torre Eiffel",
+          "El Big Ben",
+          "El Partenón"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-b-018",
+        "question": "¿Quién fue la primera mujer en ganar un Premio Nobel?",
+        "options": [
+          "Marie Curie",
+          "Rosalind Franklin",
+          "Ada Lovelace",
+          "Florence Nightingale"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-b-019",
+        "question": "¿En qué ciudad italiana se encuentra el célebre Anfiteatro Flavio, más conocido como el Coliseo?",
+        "options": ["Florencia", "Venecia", "Milán", "Roma"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "hist-b-020",
+        "question": "¿Qué rey inglés es famoso por haber tenido seis esposas y romper con la Iglesia Católica Romana?",
+        "options": [
+          "Enrique VIII",
+          "Carlos I",
+          "Guillermo el Conquistador",
+          "Ricardo Corazón de León"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-b-021",
+        "question": "¿En qué siglo tuvo lugar el descubrimiento de América?",
+        "options": ["Siglo XIV", "Siglo XV", "Siglo XVI", "Siglo XVII"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-b-022",
+        "question": "¿Cómo se llamaba la famosa reina de Egipto aliada de Julio César y Marco Antonio?",
+        "options": ["Nefertiti", "Hatshepsut", "Cleopatra", "Merytamón"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "hist-b-023",
+        "question": "¿Qué país regaló la Estatua de la Libertad a los Estados Unidos?",
+        "options": ["Reino Unido", "España", "Francia", "Alemania"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "hist-b-024",
+        "question": "¿Quién escribió el célebre 'Diario' en el que narró su escondite durante la ocupación nazi en Ámsterdam?",
+        "options": [
+          "Ana Frank",
+          "Helen Keller",
+          "Rosa Parks",
+          "Virginia Woolf"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-b-025",
+        "question": "¿Qué acontecimiento mundial terminó formalmente en 1918 tras cuatro años de conflicto?",
+        "options": [
+          "La Guerra de los Cien Años",
+          "La Primera Guerra Mundial",
+          "La Guerra de Corea",
+          "La Guerra de Vietnam"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "hist-i-001",
+        "question": "¿En qué año comenzó la Revolución Francesa?",
+        "options": ["1776", "1789", "1804", "1812"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-i-002",
+        "question": "¿Quién fue la última reina absolutista de Francia antes de la Revolución?",
+        "options": [
+          "Catalina de Médici",
+          "Isabel I",
+          "María Antonieta",
+          "Juana de Arco"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "hist-i-003",
+        "question": "¿Qué tratado puso fin oficialmente a la Primera Guerra Mundial en 1919?",
+        "options": [
+          "Tratado de Versalles",
+          "Tratado de Utrecht",
+          "Tratado de Tordesillas",
+          "Tratado de París"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-i-004",
+        "question": "¿En qué ciudad ocurrió la caída del famoso muro que dividía a Alemania en 1989?",
+        "options": ["Múnich", "Fráncfort", "Bonn", "Berlín"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "hist-i-005",
+        "question": "¿Qué civilización antigua inventó la escritura cuneiforme?",
+        "options": [
+          "Los egipcios",
+          "Los sumerios",
+          "Los fenicios",
+          "Los hititas"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-i-006",
+        "question": "¿En qué año se declaró la Independencia de los Estados Unidos?",
+        "options": ["1776", "1789", "1808", "1765"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-i-007",
+        "question": "¿Quién fue el líder militar y político que lideró la Independencia de gran parte de Sudamérica, conocido como el 'Libertador'?",
+        "options": [
+          "José de San Martín",
+          "Simón Bolívar",
+          "Bernardo O'Higgins",
+          "Francisco de Miranda"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-i-008",
+        "question": "¿Qué conflicto bélico enfrentó al Norte y al Sur de Estados Unidos entre 1861 y 1865?",
+        "options": [
+          "La Guerra de Independencia",
+          "La Guerra de Secesión",
+          "La Guerra de 1812",
+          "La Guerra Hispano-Estadounidense"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-i-009",
+        "question": "¿Quién fue el primer cosmonauta en viajar al espacio exterior en 1961?",
+        "options": [
+          "Neil Armstrong",
+          "Buzz Aldrin",
+          "Yuri Gagarin",
+          "Aleksei Leonov"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "hist-i-010",
+        "question": "¿Qué reina británica gobernó durante el auge de la Revolución Industrial y la máxima expansión del Imperio Británico en el siglo XIX?",
+        "options": [
+          "Reina Isabel I",
+          "Reina Victoria",
+          "Reina Ana",
+          "Reina María I"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-i-011",
+        "question": "¿En qué país tuvo origen la Revolución Industrial a finales del siglo XVIII?",
+        "options": ["Francia", "Alemania", "Reino Unido", "Estados Unidos"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "hist-i-012",
+        "question": "¿Qué archiduque austríaco fue asesinado en Sarajevo en 1914, detonando la Primera Guerra Mundial?",
+        "options": [
+          "Francisco Fernando",
+          "Carlos I",
+          "Maximiliano I",
+          "Rodolfo de Habsburgo"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-i-013",
+        "question": "¿Quién lideró la Revolución Bolchevique en Rusia en 1917?",
+        "options": [
+          "Iósif Stalin",
+          "León Trotski",
+          "Vladímir Lenin",
+          "Mijail Gorbachov"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "hist-i-014",
+        "question": "¿Qué famoso médico y pensador polaco postuló que la Tierra y los planetas giran alrededor del Sol (teoría heliocéntrica)?",
+        "options": [
+          "Galileo Galilei",
+          "Johannes Kepler",
+          "Isaac Newton",
+          "Nicolás Copérnico"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "hist-i-015",
+        "question": "¿Qué evento bélico enfrentó a las dos superpotencias (EE. UU. y la URSS) en un estado de tensión ideológica sin combate directo prolongado?",
+        "options": [
+          "Guerra Fría",
+          "Guerra de Corea",
+          "Guerra de Vietnam",
+          "Guerra de los Treinta Años"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-i-016",
+        "question": "¿En qué año cayó el Imperio Romano de Occidente?",
+        "options": ["476 d.C.", "1453 d.C.", "313 d.C.", "800 d.C."],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-i-017",
+        "question": "¿Qué científico formuló las tres leyes del movimiento y la ley de la gravitación universal?",
+        "options": [
+          "Albert Einstein",
+          "Galileo Galilei",
+          "Isaac Newton",
+          "Nikola Tesla"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "hist-i-018",
+        "question": "¿En qué ciudad estadounidense se lanzó la primera bomba atómica en la historia militar en 1945?",
+        "options": ["Nagasaki", "Tokyo", "Osaka", "Hiroshima"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "hist-i-019",
+        "question": "¿Qué civilización mesoamericana creó un avanzado calendario astronómico y el concepto del número cero en la región?",
+        "options": ["Azteca", "Maya", "Tolteca", "Olmeca"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-i-020",
+        "question": "¿Quién clavó sus 95 tesis en la puerta de la iglesia de Wittenberg en 1517, iniciando la Reforma Protestante?",
+        "options": [
+          "Juan Calvino",
+          "Martín Lutero",
+          "Enrique VIII",
+          "Ulrico Zuinglio"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-i-021",
+        "question": "¿Qué conflicto enfrentó a Inglaterra y Francia entre 1337 y 1453?",
+        "options": [
+          "Guerra de las Rosas",
+          "Guerra de los Treinta Años",
+          "Guerra de los Cien Años",
+          "Guerra de Sucesión"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "hist-i-022",
+        "question": "¿En qué año el hombre pisó la Luna por primera vez durante la misión Apolo 11?",
+        "options": ["1965", "1969", "1971", "1959"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-i-023",
+        "question": "¿Quién fue el principal líder del movimiento por los derechos civiles de los afroamericanos que pronunció el célebre discurso 'I Have a Dream'?",
+        "options": [
+          "Malcolm X",
+          "Martin Luther King Jr.",
+          "Frederick Douglass",
+          "W.E.B. Du Bois"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-i-024",
+        "question": "¿Qué rey castellano financió la expedición de Cristóbal Colón junto a la reina Isabel I?",
+        "options": [
+          "Fernando II de Aragón",
+          "Felipe II",
+          "Carlos I",
+          "Alfonso X"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-i-025",
+        "question": "¿Qué ciudad de la antigua Grecia era famosa por su estricto entrenamiento militar y sus hoplitas?",
+        "options": ["Atenas", "Tebas", "Corinto", "Esparta"],
+        "correctAnswerIndex": 3
+      }
+    ],
+    "advanced": [
+      {
+        "id": "hist-a-001",
+        "question": "¿En qué año cayó Constantinopla, marcando el fin del Imperio Romano de Oriente?",
+        "options": ["1453", "1492", "1204", "1356"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-a-002",
+        "question": "¿Cómo se llamaba el acuerdo diplomático entre España y Portugal en 1494 para dividirse las tierras del Nuevo Mundo?",
+        "options": [
+          "Bula Inter Caetera",
+          "Tratado de Tordesillas",
+          "Tratado de Zaragoza",
+          "Pacto de Madrid"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-a-003",
+        "question": "¿Quién fue el canciller alemán conocido como el 'Canciller de Hierro', responsable de la unificación alemana en 1871?",
+        "options": [
+          "Kaiser Guillermo II",
+          "Otto von Bismarck",
+          "Klemens von Metternich",
+          "Friedrich Ebert"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-a-004",
+        "question": "¿Qué batalla en 1815 supuso la derrota definitiva de Napoleón Bonaparte?",
+        "options": [
+          "Batalla de Austerlitz",
+          "Batalla de Leipzig",
+          "Batalla de Waterloo",
+          "Batalla de Trafalgar"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "hist-a-005",
+        "question": "¿Qué dinastía reinó en China inmediatamente antes de la proclamación de la República en 1912?",
+        "options": [
+          "Dinastía Ming",
+          "Dinastía Qing",
+          "Dinastía Han",
+          "Dinastía Tang"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-a-006",
+        "question": "¿En qué año ocurrió el Cisma de Oriente, que separó a la Iglesia Católica Romana de la Iglesia Ortodoxa?",
+        "options": ["1054", "1204", "1517", "800"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-a-007",
+        "question": "¿Qué orden religioso-militar fue disuelta en 1312 por el Papa Clemente V tras la persecución de Felipe IV de Francia?",
+        "options": [
+          "Caballeros Hospitalarios",
+          "Caballeros Teutónicos",
+          "Caballeros Templarios",
+          "Orden de Calatrava"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "hist-a-008",
+        "question": "¿Cómo se denominó al levantamiento popular en Inglaterra en 1688 que derrocó al rey Jacobo II e instauró la monarquía parlamentaria?",
+        "options": [
+          "Revolución Gloriosa",
+          "Guerra de las Dos Rosas",
+          "Revolución Puritana",
+          "Rebelión Jacobita"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-a-009",
+        "question": "¿Qué paz diplomática firmada en 1648 puso fin a la Guerra de los Treinta Años y sentó las bases del Estado-nación moderno?",
+        "options": [
+          "Paz de Augsburgo",
+          "Paz de Westfalia",
+          "Tratado de Utrecht",
+          "Paz de Nimega"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-a-010",
+        "question": "¿Qué emperador romano legalizó el cristianismo en el Imperio mediante el Edicto de Milán en el año 313 d.C.?",
+        "options": [
+          "Teodosio I",
+          "Constantino el Grande",
+          "Marco Aurelio",
+          "Diocleciano"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-a-011",
+        "question": "¿Qué enfrentamiento naval en 1571 frenó la expansión del Imperio Otomano en el Mediterráneo gracias a la Liga Santa?",
+        "options": [
+          "Batalla de Lepanto",
+          "Batalla de Trafalgar",
+          "Batalla de Preveza",
+          "Batalla de Actium"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-a-012",
+        "question": "¿Quién fue el faraón monoteísta egipcio de la dinastía XVIII que intentó instaurar el culto exclusivo al dios Atón?",
+        "options": [
+          "Akenatón (Amenofis IV)",
+          "Tutmosis III",
+          "Sethi I",
+          "Ramsés III"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-a-013",
+        "question": "¿En qué año ocurrió la Revolución Meiji en Japón, iniciando su rápida modernización e industrialización?",
+        "options": ["1853", "1868", "1905", "1894"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-a-014",
+        "question": "¿Qué célebre conferenciante militar y gobernante ateniense lideró la edad de oro de Atenas en el siglo V a.C.?",
+        "options": ["Leónidas", "Solón", "Pericles", "Temístocles"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "hist-a-015",
+        "question": "¿Qué acuerdo secreto de 1916 entre Reino Unido y Francia se repartió las zonas de influencia del Imperio Otomano en Medio Oriente?",
+        "options": [
+          "Acuerdo Sykes-Picot",
+          "Declaración Balfour",
+          "Pacto de Acero",
+          "Conferencia de San Remo"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-a-016",
+        "question": "¿Qué emperador romano trasladó la capital del imperio a Bizancio en el año 330 d.C.?",
+        "options": ["Julio César", "Constantino I", "Augusto", "Nerva"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-a-017",
+        "question": "¿Cómo se llamaba la ley promulgada en Francia en 1598 por Enrique IV para garantizar la tolerancia religiosa a los hugonotes?",
+        "options": [
+          "Edicto de Nantes",
+          "Edicto de Milán",
+          "Edicto de Fontainebleau",
+          "Paz de Augsburgo"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-a-018",
+        "question": "¿En qué año se disolvió oficialmente la Unión Soviética (URSS)?",
+        "options": ["1989", "1991", "1993", "1985"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-a-019",
+        "question": "¿Qué conquistador macedonio derrotó al Imperio Persa y llegó hasta los confines de la India en el siglo IV a.C.?",
+        "options": [
+          "Alejandro Magno",
+          "Filipo II",
+          "Pirro de Epiro",
+          "Antípatro"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-a-020",
+        "question": "¿En qué batalla de 490 a.C. los atenienses derrotaron al ejército persa de Darío I?",
+        "options": [
+          "Batalla de las Termópilas",
+          "Batalla de Maratón",
+          "Batalla de Salamina",
+          "Batalla de Plataea"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-a-021",
+        "question": "¿Qué tratado puso fin a la Guerra de Sucesión Española en 1713?",
+        "options": [
+          "Tratado de Utrecht",
+          "Tratado de Pirineos",
+          "Paz de Nimega",
+          "Tratado de Aquisgrán"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-a-022",
+        "question": "¿Quién fue el fundador y primer gran emperador del Imperio Mongol en el siglo XIII?",
+        "options": ["Kublai Kan", "Gengis Kan", "Tamerlán", "Batu Kan"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-a-023",
+        "question": "¿Qué epidemia devastó Europa entre 1347 y 1351 reduciendo la población en aproximadamente un tercio?",
+        "options": ["Peste Negra", "Gripe Española", "Viruela", "Cólera"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "hist-a-024",
+        "question": "¿Qué conferencia de 1945 reunió a Churchill, Roosevelt y Stalin para planificar el mapa de Europa de posguerra?",
+        "options": [
+          "Conferencia de Potsdam",
+          "Conferencia de Yalta",
+          "Conferencia de Teherán",
+          "Conferencia de Casablanca"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "hist-a-025",
+        "question": "¿Qué líder militar apodado el 'Zorro del Desierto' comandó el Afrika Korps alemán durante la Segunda Guerra Mundial?",
+        "options": [
+          "Heinz Guderian",
+          "Erich von Manstein",
+          "Erwin Rommel",
+          "Gerd von Rundstedt"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  }
+}

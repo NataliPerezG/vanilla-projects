@@ -1,0 +1,627 @@
+{
+  "categoryId": "general_culture",
+  "categoryName": "Cultura General",
+  "levels": {
+    "basic": [
+      {
+        "id": "genc-b-001",
+        "question": "¿Cuántos días tiene un año bisiesto?",
+        "options": ["364", "365", "366", "367"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "genc-b-002",
+        "question": "¿Cuál es el idioma oficial más hablado en Brasil?",
+        "options": ["Español", "Portugués", "Inglés", "Francés"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-b-003",
+        "question": "¿Qué instrumento de cuerda tiene habitualmente 6 cuerdas?",
+        "options": ["Violín", "Ukelele", "Guitarra", "Arpa"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "genc-b-004",
+        "question": "¿En qué país se originaron los Juegos Olímpicos de la Antigüedad?",
+        "options": ["Italia", "Grecia", "Egipto", "Francia"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-b-005",
+        "question": "¿Cuál es la moneda oficial de Japón?",
+        "options": ["Yuan", "Won", "Yen", "Baht"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "genc-b-006",
+        "question": "¿Cuántos minutos tiene una hora?",
+        "options": ["30", "45", "60", "90"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "genc-b-007",
+        "question": "¿Qué color se obtiene mezclando azul y amarillo?",
+        "options": ["Verde", "Naranja", "Morado", "Marrón"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "genc-b-008",
+        "question": "¿Cuál es el mamífero volador por excelencia?",
+        "options": [
+          "Ardilla voladora",
+          "Murciélago",
+          "Pájaro carpintero",
+          "Búho"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-b-009",
+        "question": "¿En qué continente se encuentra Italia?",
+        "options": ["América", "Asia", "Europa", "África"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "genc-b-010",
+        "question": "¿Cuál es la capital del Reino Unido?",
+        "options": ["Mánchester", "Liverpool", "Edimburgo", "Londres"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "genc-b-011",
+        "question": "¿Qué bebida alcohólica se produce mediante la fermentación de la uva?",
+        "options": ["Cerveza", "Vino", "Ron", "Whisky"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-b-012",
+        "question": "¿Cuántos lados tiene un hexágono?",
+        "options": ["5", "6", "7", "8"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-b-013",
+        "question": "¿Qué animal de cuello largo es el más alto del mundo?",
+        "options": ["Jirafa", "Elefante", "Avestruz", "Camello"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "genc-b-014",
+        "question": "¿En qué país se inventó la pizza moderna?",
+        "options": ["Estados Unidos", "Grecia", "Italia", "España"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "genc-b-015",
+        "question": "¿Qué día se celebra tradicionalmente la Nochebuena?",
+        "options": [
+          "31 de diciembre",
+          "24 de diciembre",
+          "25 de diciembre",
+          "1 de enero"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-b-016",
+        "question": "¿Cuál es el deporte más popular del mundo en número de aficionados?",
+        "options": ["Baloncesto", "Fútbol", "Tenis", "Béisbol"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-b-017",
+        "question": "¿Qué personaje del folclore trae juguetes a los niños en Navidad?",
+        "options": [
+          "El Ratoncito Pérez",
+          "Papá Noel / Santa Claus",
+          "El Conejo de Pascua",
+          "El Coco"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-b-018",
+        "question": "¿Cuál es la capital de España?",
+        "options": ["Barcelona", "Sevilla", "Valencia", "Madrid"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "genc-b-019",
+        "question": "¿Cuántos meses tienen 28 días?",
+        "options": ["Solo 1", "6 meses", "Todos los 12 meses", "Ninguno"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "genc-b-020",
+        "question": "¿Qué instrumento musical tiene teclas blancas y negras?",
+        "options": ["Guitarra", "Piano", "Flauta", "Trompeta"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-b-021",
+        "question": "¿Qué famoso parque temático se encuentra en Orlando, Florida?",
+        "options": [
+          "Disneyland París",
+          "Walt Disney World",
+          "Universal Studios Hollywood",
+          "Efteling"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-b-022",
+        "question": "¿Cuál es la fruta principal utilizada para hacer sidra?",
+        "options": ["Uva", "Manzana", "Pera", "Naranja"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-b-023",
+        "question": "¿Qué animal produce miel?",
+        "options": ["Avispa", "Abeja", "Hormiga", "Mariposa"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-b-024",
+        "question": "¿Cuál es el color de las cajas negras de los aviones?",
+        "options": ["Negro", "Naranja brillante", "Azul", "Rojo"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-b-025",
+        "question": "¿En qué continente está Australia?",
+        "options": ["Asia", "América", "Oceanía", "África"],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "genc-i-001",
+        "question": "¿Qué célebre obra de arte fue pintada en el techo de la Capilla Sixtina?",
+        "options": [
+          "La Última Cena",
+          "La Creación de Adán",
+          "La Gioconda",
+          "El Nacimiento de Venus"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-i-002",
+        "question": "¿Qué famosa torre inclinada se encuentra en la región de Toscana, Italia?",
+        "options": [
+          "Torre Eiffel",
+          "Torre de Pisa",
+          "Torre de Belém",
+          "Big Ben"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-i-003",
+        "question": "¿Cuál es la moneda oficial del Reino Unido?",
+        "options": ["Euro", "Dólar", "Libra Esterlina", "Franco Suizo"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "genc-i-004",
+        "question": "¿Quién pintó el célebre cuadro surrealista 'La persistencia de la memoria' (los relojes blandos)?",
+        "options": [
+          "Pablo Picasso",
+          "Salvador Dalí",
+          "Joan Miró",
+          "Frida Kahlo"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-i-005",
+        "question": "¿Qué famoso compositor austriaco escribió la ópera 'La flauta mágica'?",
+        "options": [
+          "Ludwig van Beethoven",
+          "Wolfgang Amadeus Mozart",
+          "Johann Sebastian Bach",
+          "Frédéric Chopin"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-i-006",
+        "question": "¿Cuál es el libro sagrado del Islam?",
+        "options": ["La Biblia", "El Corán", "La Torá", "Los Vedas"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-i-007",
+        "question": "¿Qué famosa artista mexicana es conocida por sus expresivos autorretratos?",
+        "options": [
+          "Remedios Varo",
+          "Leonora Carrington",
+          "Frida Kahlo",
+          "Isabel Allende"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "genc-i-008",
+        "question": "¿Qué danza y género musical tradicional es característico de Argentina y Uruguay?",
+        "options": ["Salsa", "Tango", "Flamenco", "Samba"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-i-009",
+        "question": "¿Qué festival de cine se celebra anualmente entregando el premio de la 'Palma de Oro'?",
+        "options": [
+          "Festival de Venecia",
+          "Festival de Cannes",
+          "Festival de Berlín",
+          "Premios Óscar"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-i-010",
+        "question": "¿Cuál es la flor nacional de Japón asociada a la primavera?",
+        "options": [
+          "Flor de Loto",
+          "Flor de Cerezo (Sakura)",
+          "Orquídea",
+          "Crisantemo"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-i-011",
+        "question": "¿Qué importante obra escultórica de mármol blanco esculpió Miguel Ángel en Florencia?",
+        "options": ["El Pensador", "El David", "La Piedad", "El Moisés"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-i-012",
+        "question": "¿En qué país se celebra la festividad tradicional del 'Día de Muertos' con altares y calaveras de azúcar?",
+        "options": ["Colombia", "España", "México", "Perú"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "genc-i-013",
+        "question": "¿Qué banda británica lanzó el influyente álbum 'Abbey Road' en 1969?",
+        "options": ["The Rolling Stones", "The Beatles", "Queen", "Pink Floyd"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-i-014",
+        "question": "¿Qué arquitectura megalítica prehistórica famosa se encuentra en la llanura de Salisbury, Inglaterra?",
+        "options": [
+          "Moáis",
+          "Stonehenge",
+          "Dólmenes de Antequera",
+          "Menhires de Carnac"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-i-015",
+        "question": "¿Cuál es la bebida alcohólica nacional de México obtenida del agave?",
+        "options": ["Pisco", "Tequila", "Ron", "Cachaça"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-i-016",
+        "question": "¿Quién compuso la famosa Novena Sinfonía que incluye la 'Oda a la Alegría'?",
+        "options": [
+          "Ludwig van Beethoven",
+          "Franz Schubert",
+          "Johannes Brahms",
+          "Joseph Haydn"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "genc-i-017",
+        "question": "¿Qué museo alberga la pintura original de 'La Gioconda' (Mona Lisa)?",
+        "options": [
+          "Museo del Prado",
+          "Museo del Louvre",
+          "National Gallery",
+          "MoMA"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-i-018",
+        "question": "¿Cómo se llama el tradicional sombrero de ala ancha originario de Ecuador hecho de paja toquilla?",
+        "options": [
+          "Sombrero Charro",
+          "Sombrero Vueltiao",
+          "Sombrero Panamá",
+          "Sombrero Cordobés"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "genc-i-019",
+        "question": "¿En qué país se otorga anualmente el Premio Nobel de la Paz?",
+        "options": ["Suecia", "Noruega", "Suiza", "Dinamarca"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-i-020",
+        "question": "¿Qué afamado pintor holandés se cortó parte de la oreja tras una discusión?",
+        "options": [
+          "Rembrandt",
+          "Vincent van Gogh",
+          "Johannes Vermeer",
+          "Piet Mondrian"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-i-021",
+        "question": "¿Qué instrumento de viento de origen prehispánico es típico de la región andina?",
+        "options": ["Zampoña / Siku", "Acordeón", "Gaita", "Marimba"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "genc-i-022",
+        "question": "¿En qué ciudad se encuentran las famosas ruinas del Coliseo y el Foro?",
+        "options": ["Atenas", "Roma", "Estambul", "El Cairo"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-i-023",
+        "question": "¿Qué famoso festival de música tuvo lugar en Nueva York en 1969 definiendo la cultura 'hippie'?",
+        "options": ["Coachella", "Woodstock", "Glastonbury", "Live Aid"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-i-024",
+        "question": "¿Cuál es la ópera más famosa de Georges Bizet ambientada en Sevilla?",
+        "options": [
+          "La Traviata",
+          "Carmen",
+          "El barbero de Sevilla",
+          "Madama Butterfly"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-i-025",
+        "question": "¿Qué filósofo griego fue maestro de Alejandro Magno?",
+        "options": ["Sócrates", "Platón", "Aristóteles", "Epicuro"],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "advanced": [
+      {
+        "id": "genc-a-001",
+        "question": "¿Qué movimiento artístico impulsado por Pablo Picasso y Georges Braque rompió con la perspectiva tradicional a inicios del siglo XX?",
+        "options": ["Impresionismo", "Cubismo", "Fauvismo", "Expresionismo"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-a-002",
+        "question": "¿Cuál es el nombre del famoso cuadro impresionista de Claude Monet que dio nombre al movimiento?",
+        "options": [
+          "Los lirios",
+          "Impensión, sol naciente",
+          "El almuerzo de los remeros",
+          "Noche estrellada"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-a-003",
+        "question": "¿En qué año cayeron las Torres Gemelas en Nueva York tras los atentados del 11 de septiembre?",
+        "options": ["1999", "2000", "2001", "2003"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "genc-a-004",
+        "question": "¿Qué filósofo francés acuñó la célebre frase 'Pienso, luego existo' (Cogito ergo sum)?",
+        "options": [
+          "René Descartes",
+          "Blaise Pascal",
+          "Voltaire",
+          "Jean-Jacques Rousseau"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "genc-a-005",
+        "question": "¿Qué arquitectura islámica medieval en Granada, España, es uno de los monumentos más visitados del país?",
+        "options": [
+          "La Mezquita de Córdoba",
+          "La Alhambra",
+          "La Giralda",
+          "El Alcázar de Sevilla"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-a-006",
+        "question": "¿Qué estilo arquitectónico de la Edad Media europea se caracteriza por sus arcos apuntados (ojivales) y vitrales elevados?",
+        "options": ["Románico", "Gótico", "Barroco", "Renacentista"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-a-007",
+        "question": "¿Qué célebre concierto benéfico simultáneo se celebró en 1985 en Londres y Filadelfia para recaudar fondos contra la hambruna en Etiopía?",
+        "options": ["Woodstock '85", "Live Aid", "USA for Africa", "Farm Aid"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-a-008",
+        "question": "¿Qué filósofo prusiano escribió la 'Crítica de la razón pura'?",
+        "options": [
+          "Georg Wilhelm Friedrich Hegel",
+          "Immanuel Kant",
+          "Arthur Schopenhauer",
+          "Friedrich Nietzsche"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-a-009",
+        "question": "¿Quién pintó el monumental mural antibélico 'Guernica' en 1937?",
+        "options": [
+          "Salvador Dalí",
+          "Pablo Picasso",
+          "Joan Miró",
+          "Diego Rivera"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-a-010",
+        "question": "¿Cuál es la sede de la Corte Internacional de Justicia de las Naciones Unidas?",
+        "options": ["Ginebra", "La Haya", "Nueva York", "Estrasburgo"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-a-011",
+        "question": "¿Qué pintor impresionista francés es famoso por sus esculturas y cuadros de bailarinas de ballet?",
+        "options": [
+          "Edgar Degas",
+          "Pierre-Auguste Renoir",
+          "Édouard Manet",
+          "Paul Cézanne"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "genc-a-012",
+        "question": "¿Qué célebre físico e inventor serbio-estadounidense hizo contribuciones fundamentales al desarrollo de la corriente alterna (AC)?",
+        "options": [
+          "Thomas Edison",
+          "Nikola Tesla",
+          "Michael Faraday",
+          "James Clerk Maxwell"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-a-013",
+        "question": "¿Qué compositor polaco de la época romántica es famoso casi exclusivamente por sus obras para piano solo (valses, nocturnos, polonesas)?",
+        "options": [
+          "Franz Liszt",
+          "Frédéric Chopin",
+          "Robert Schumann",
+          "Felix Mendelssohn"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-a-014",
+        "question": "¿En qué país se originó el arte marcial del Taekwondo?",
+        "options": ["Japón", "China", "Corea del Sur", "Tailandia"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "genc-a-015",
+        "question": "¿Qué sociólogo e historiador alemán escribió 'La ética protestante y el espíritu del capitalismo'?",
+        "options": ["Karl Marx", "Max Weber", "Émily Durkheim", "Georg Simmel"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-a-016",
+        "question": "¿Qué ballet famoso compuesto por Tchaikovsky cuenta la historia de Odette, una princesa transformada en ave?",
+        "options": [
+          "El cascanueces",
+          "El lago de los cisnes",
+          "La bella durmiente",
+          "Romeo y Julieta"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-a-017",
+        "question": "¿Qué economista escocés escribió 'La riqueza de las naciones' en 1776, considerado el padre del capitalismo moderno?",
+        "options": [
+          "John Maynard Keynes",
+          "Adam Smith",
+          "David Ricardo",
+          "Thomas Malthus"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-a-018",
+        "question": "¿Qué afamado cuadro expresionista fue pintado por el artista noruego Edvard Munch en 1893?",
+        "options": [
+          "El Grito",
+          "La Noche Estrellada",
+          "El Beso",
+          "La Danza de la Vida"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "genc-a-019",
+        "question": "¿En qué año finalizó oficialmente la construcción de la Torre Eiffel en París?",
+        "options": ["1889", "1900", "1878", "1910"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "genc-a-020",
+        "question": "¿Qué institución otorga los prestigiosos Premios Pulitzer en periodismo y literatura?",
+        "options": [
+          "Universidad de Harvard",
+          "Universidad de Columbia",
+          "Universidad de Yale",
+          "Universidad de Princeton"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-a-021",
+        "question": "¿Quién fue la primera mujer en viajar al espacio exterior en 1963 a bordo de la Vostok 6?",
+        "options": [
+          "Svetlana Savítskaya",
+          "Valentina Tereshkova",
+          "Sally Ride",
+          "Mae Jemison"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-a-022",
+        "question": "¿Qué fotógrafo húngaro-estadounidense es famoso por sus fotos de guerra y por cofundar la Agencia Magnum?",
+        "options": [
+          "Henri Cartier-Bresson",
+          "Robert Capa",
+          "Ansel Adams",
+          "Man Ray"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "genc-a-023",
+        "question": "¿Qué célebre tratado filosófico político escribió Nicolás Maquiavelo en 1513?",
+        "options": ["El Príncipe", "El Contrato Social", "Leviatán", "Utopía"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "genc-a-024",
+        "question": "¿Qué arquitecto catalán diseñó el templo de la Sagrada Familia en Barcelona?",
+        "options": [
+          "Antoni Gaudí",
+          "Lluís Domènech i Montaner",
+          "Josep Puig i Cadafalch",
+          "Santiago Calatrava"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "genc-a-025",
+        "question": "¿Qué tratado internacional adoptado en 1997 busca la reducción de emisiones de gases de efecto invernadero?",
+        "options": [
+          "Protocolo de Kioto",
+          "Acuerdo de París",
+          "Convenio de Viena",
+          "Protocolo de Montreal"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  }
+}

@@ -13,6 +13,8 @@
 [ ] Página 404
 [ ] Buscador dinámico con autocompletado
 [ ] Aplicación con varias pestañas.
+[ ] Slider
+[ ] Quiz Game
 
 
 

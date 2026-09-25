@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-ppal: rgb(55, 80, 120);
+  --color-second: rgb(186, 206, 241);
+  --color-basic: rgb(216, 216, 220);
+  --font: "Noto Sans", sans-serif;
+}
+
+body {
+  background-color: var(--color-ppal);
+  font-family: var(--font);
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* General */
+.container {
+  width: clamp(340px, 70%, 450px);
+  min-height: 40dvh;
+  padding: 1.3rem;
+  margin: 80px auto;
+  background-color: #fff;
+  text-align: center;
+  border: 2px solid var(--color-ppal);
+  border-radius: 10px;
+  box-shadow: 2px 3px 5px 1px var(--color-basic);
+}
+
+/* Pantalla incial*/
+.quiz-configuration {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .categories {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 40px);
+    gap: 10px;
+
+    button {
+      border: 1.5px solid var(--color-ppal);
+      border-radius: 10px;
+      font-family: var(--font);
+      font-size: 1rem;
+      background-color: var(--color-basic);
+      transition: background-color 200ms linear;
+
+      &:hover {
+        cursor: pointer;
+        background-color: var(--color-second);
+      }
+    }
+
+    .selected {
+      background-color: var(--color-second);
+    }
+  }
+
+  .num-questions,
+  .levels {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+    button {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      font-size: 1rem;
+      background-color: var(--color-basic);
+      border: 1px solid var(--color-ppal);
+
+      &:hover {
+        cursor: pointer;
+        background-color: var(--color-second);
+      }
+    }
+
+    .selected {
+      background-color: var(--color-second);
+    }
+  }
+
+  .levels {
+    width: 100%;
+
+    button {
+      width: 30%;
+      gap: 10px;
+      font-family: var(--font);
+
+    }
+
+    .selected {
+      background-color: var(--color-second);
+    }
+  }
+
+
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+
+    .btn-start {
+      margin: 0 auto;
+      width: 40%;
+      height: 40px;
+      font-family: var(--font);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 1rem;
+      font-weight: 500;
+      border-radius: 10px;
+      color: #fff;
+      background-color: var(--color-ppal);
+      border: 1px solid var(--color-ppal);
+      transition: background-color 200ms linear, color 200ms linear;
+
+      &:hover {
+        cursor: pointer;
+        background-color: var(--color-basic);
+        color: var(--color-ppal);
+        font-weight: 700;
+      }
+    }
+  }
+
+}
+
+/* Pantalla de preguntas*/
+.quiz-questions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 2rem;
+    border-bottom: 1.5px solid var(--color-basic);
+  }
+
+  .question {
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: var(--font);
+  }
+
+  .anwers-container {
+    height: 90%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 30px;
+
+    button {
+      min-height: 40px;
+      font-family: var(--font);
+    }
+
+    border-bottom: 1.5px solid var(--color-basic);
+  }
+
+  footer>span {
+    display: inline-block;
+    min-width: 50px;
+    height: 10px;
+    background-color: plum;
+  }
+
+}
+
+/* Pantalla de resultados*/
+.quiz-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  font-family: var(--font);
+  font-size: 1.2rem;
+
+  img {
+    width: 150px;
+  }
+
+  .btn-restart {
+    margin: 0 auto;
+    width: 40%;
+    height: 40px;
+    font-family: var(--font);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    color: #fff;
+    background-color: var(--color-ppal);
+    border: 1px solid var(--color-ppal);
+    transition: background-color 200ms linear, color 200ms linear;
+
+    &:hover {
+      cursor: pointer;
+      background-color: var(--color-basic);
+      color: var(--color-ppal);
+      font-weight: 700;
+    }
+  }
+
+}
+
+
+.hide {
+  display: none
+}
+
+.active {
+  display: flex;
+}

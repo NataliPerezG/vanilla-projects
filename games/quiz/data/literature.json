@@ -1,0 +1,752 @@
+{
+  "categoryId": "literature",
+  "categoryName": "Literatura",
+  "levels": {
+    "basic": [
+      {
+        "id": "lit-b-001",
+        "question": "¿Quién escribió 'Don Quijote de la Mancha'?",
+        "options": [
+          "Gabriel García Márquez",
+          "Miguel de Cervantes",
+          "William Shakespeare",
+          "Mario Vargas Llosa"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-b-002",
+        "question": "¿Cuál es el fiel compañero y escudero de Don Quijote?",
+        "options": ["Rocinante", "Sancho Panza", "Dulcinea", "Fierabrás"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-b-003",
+        "question": "¿Quién es el autor de la famosa obra trágica 'Romeo y Julieta'?",
+        "options": [
+          "Charles Dickens",
+          "William Shakespeare",
+          "Oscar Wilde",
+          "Victor Hugo"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-b-004",
+        "question": "¿Qué escritor colombiano ganó el Premio Nobel de Literatura en 1982?",
+        "options": [
+          "Jorge Luis Borges",
+          "Julio Cortázar",
+          "Gabriel García Márquez",
+          "Pablo Neruda"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "lit-b-005",
+        "question": "¿Qué obra narra la historia del pueblo ficticio de Macondo y la familia Buendía?",
+        "options": [
+          "Pedro Páramo",
+          "Cien años de soledad",
+          "Rayuela",
+          "La colmena"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-b-006",
+        "question": "¿Quién escribió la célebre obra infantil 'El Principito'?",
+        "options": [
+          "Antoine de Saint-Exupéry",
+          "J.K. Rowling",
+          "Hans Christian Andersen",
+          "Lewis Carroll"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-b-007",
+        "question": "¿De qué país era originario el poeta Pablo Neruda?",
+        "options": ["Argentina", "Chile", "Uruguay", "Perú"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-b-008",
+        "question": "¿Cuál es el título del famoso libro sobre una niña que cae por un agujero de conejo?",
+        "options": [
+          "Peter Pan",
+          "Alicia en el país de las maravillas",
+          "El Mago de Oz",
+          "Matilda"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-b-009",
+        "question": "¿Quién creó al famoso detective Sherlock Holmes?",
+        "options": [
+          "Agatha Christie",
+          "Arthur Conan Doyle",
+          "Edgar Allan Poe",
+          "Jules Verne"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-b-010",
+        "question": "¿En qué historia aparece el personaje de 'El Capitán Garfio'?",
+        "options": [
+          "La isla del tesoro",
+          "Peter Pan",
+          "Moby Dick",
+          "Robinson Crusoe"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-b-011",
+        "question": "¿Qué autor escribió la saga de fantasía de 'Harry Potter'?",
+        "options": [
+          "J.R.R. Tolkien",
+          "C.S. Lewis",
+          "J.K. Rowling",
+          "George R.R. Martin"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "lit-b-012",
+        "question": "¿Qué tipo de poema lírico suele constar de 14 versos endecasílabos?",
+        "options": ["Romance", "Soneto", "Oda", "Elegía"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-b-013",
+        "question": "¿Quién es el autor de 'Veinte poemas de amor y una canción desesperada'?",
+        "options": [
+          "Mario Benedetti",
+          "Pablo Neruda",
+          "Federico García Lorca",
+          "Gustavo Adolfo Bécquer"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-b-014",
+        "question": "¿Qué personaje de ficción vive en el 221B de Baker Street?",
+        "options": [
+          "Hércule Poirot",
+          "Sherlock Holmes",
+          "Arsène Lupin",
+          "Sam Spade"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-b-015",
+        "question": "¿Quién escribió la épica trilogía de 'El Señor de los Anillos'?",
+        "options": [
+          "J.R.R. Tolkien",
+          "George R.R. Martin",
+          "Terry Pratchett",
+          "Brandon Sanderson"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-b-016",
+        "question": "¿Cuál es la criatura marina gigante que persigue el Capitán Ahab en una novela famosa?",
+        "options": ["Kraken", "Moby Dick", "Leviatán", "Megatiburón"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-b-017",
+        "question": "¿Quién escribió 'La metamorfosis', donde el protagonista se despierta convertido en un insecto?",
+        "options": [
+          "Franz Kafka",
+          "Fyodor Dostoevsky",
+          "Albert Camus",
+          "Thomas Mann"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-b-018",
+        "question": "¿Cuál es el género literario al que pertenecen las fábulas?",
+        "options": ["Lírico", "Narrativo", "Dramático", "Ensayo"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-b-019",
+        "question": "¿Quién es el autor de 'Cuentos de la selva' y 'Cuentos de amor de locura y de muerte'?",
+        "options": [
+          "Horacio Quiroga",
+          "Jorge Luis Borges",
+          "Julio Cortázar",
+          "Juan Rulfo"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-b-020",
+        "question": "¿En qué obra el protagonista vende su alma al diablo a cambio de conocimiento ilimitado?",
+        "options": [
+          "Fausto",
+          "El retrato de Dorian Gray",
+          "La Divina Comedia",
+          "Crimen y castigo"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-b-021",
+        "question": "¿Qué escritor francés escribió 'El conde de Montecristo' y 'Los tres mosqueteros'?",
+        "options": [
+          "Alexandre Dumas",
+          "Victor Hugo",
+          "Gustave Flaubert",
+          "Émile Zola"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-b-022",
+        "question": "¿Cómo se llama el villano principal de 'Harry Potter'?",
+        "options": [
+          "Gellert Grindelwald",
+          "Lord Voldemort",
+          "Severus Snape",
+          "Lucius Malfoy"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-b-023",
+        "question": "¿Qué novela gótica de Mary Shelley fue publicada en 1818 y aborda la creación de vida artificial?",
+        "options": [
+          "Drácula",
+          "Frankenstein",
+          "El extraño caso del Dr. Jekyll",
+          "El vampiro"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-b-024",
+        "question": "¿Quién escribió la obra poética 'Rimas y Leyendas'?",
+        "options": [
+          "Gustavo Adolfo Bécquer",
+          "José de Espronceda",
+          "Rosalía de Castro",
+          "Antonio Machado"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-b-025",
+        "question": "¿Qué cuento popular trata sobre un muñeco de madera al que le crece la nariz cuando miente?",
+        "options": ["Pinocho", "El soldadito de plomo", "Gulliver", "Geppetto"],
+        "correctAnswerIndex": 0
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "lit-i-001",
+        "question": "¿Quién escribió 'La Divina Comedia'?",
+        "options": ["Boccaccio", "Petrarca", "Dante Alighieri", "Machiavelo"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "lit-i-002",
+        "question": "¿A qué movimiento literario pertenecieron autores como José Asunción Silva y Rubén Darío?",
+        "options": ["Romanticismo", "Modernismo", "Realismo", "Barroco"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-i-003",
+        "question": "¿Qué autor mexicano escribió la icónica novela corta 'Pedro Páramo'?",
+        "options": [
+          "Octavio Paz",
+          "Carlos Fuentes",
+          "Juan Rulfo",
+          "Rosario Castellanos"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "lit-i-004",
+        "question": "¿Qué novela distópica de George Orwell presenta la figura del 'Gran Hermano'?",
+        "options": [
+          "Un mundo feliz",
+          "1984",
+          "Fahrenheit 451",
+          "Rebelión en la granja"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-i-005",
+        "question": "¿Quién escribió la novela filosófica 'El extranjero'?",
+        "options": [
+          "Jean-Paul Sartre",
+          "Albert Camus",
+          "Simone de Beauvoir",
+          "Marcel Proust"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-i-006",
+        "question": "¿Cuál es la famosa novela de Julio Cortázar que puede leerse en varios órdenes distintos?",
+        "options": [
+          "Bestiario",
+          "Rayuela",
+          "Todos los fuegos el fuego",
+          "Los premios"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-i-007",
+        "question": "¿Quién escribió la obra dramática 'La casa de Bernarda Alba'?",
+        "options": [
+          "Federico García Lorca",
+          "Lope de Vega",
+          "Calderón de la Barca",
+          "Tirso de Molina"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-i-008",
+        "question": "¿Qué autor ruso escribió 'Crimen y castigo' y 'Los hermanos Karamázov'?",
+        "options": [
+          "Leo Tolstoy",
+          "Fyodor Dostoevsky",
+          "Anton Chekhov",
+          "Nikolai Gogol"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-i-009",
+        "question": "¿Quién escribió la célebre novela 'Los miserables'?",
+        "options": [
+          "Victor Hugo",
+          "Honoré de Balzac",
+          "Stendhal",
+          "Émile Zola"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-i-010",
+        "question": "¿Qué poeta peruano es el autor del poemario vanguardista 'Trilce' y 'Los heraldos negros'?",
+        "options": [
+          "César Vallejo",
+          "José María Arguedas",
+          "Ciro Alegría",
+          "Blanca Varela"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-i-011",
+        "question": "¿Qué novela narra la obsesión de Dorian Gray por mantener su juventud mientras su retrato envejece?",
+        "options": [
+          "El retrato de Dorian Gray",
+          "El fanático",
+          "Salomé",
+          "De Profundis"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-i-012",
+        "question": "¿Quién escribió 'La metamorfosis'?",
+        "options": [
+          "Thomas Mann",
+          "Franz Kafka",
+          "Hermann Hesse",
+          "Robert Musil"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-i-013",
+        "question": "¿Quién es la autora de 'Orgullo y prejuicio' y 'Sentido y sensibilidad'?",
+        "options": [
+          "Charlotte Brontë",
+          "Jane Austen",
+          "Emily Brontë",
+          "George Eliot"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-i-014",
+        "question": "¿Qué escritor argentino creó obras magistrales como 'Ficciones' y 'El Aleph'?",
+        "options": [
+          "Adolfo Bioy Casares",
+          "Jorge Luis Borges",
+          "Ernesto Sabato",
+          "Julio Cortázar"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-i-015",
+        "question": "¿Qué movimiento vanguardista fundó Filippo Tommaso Marinetti en 1909?",
+        "options": ["Surrealismo", "Futurismo", "Dadaísmo", "Dada"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-i-016",
+        "question": "¿Cuál es la obra cumbre del escritor ruso León Tolstói ambientada durante las guerras napoleónicas?",
+        "options": [
+          "Anna Karenina",
+          "Guerra y paz",
+          "La muerte de Iván Ilich",
+          "Resurrección"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-i-017",
+        "question": "¿Qué autor español del Siglo de Oro escribió 'La vida es sueño'?",
+        "options": [
+          "Pedro Calderón de la Barca",
+          "Lope de Vega",
+          "Francisco de Quevedo",
+          "Luis de Góngora"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-i-018",
+        "question": "¿Quién escribió la novela distópica 'Fahrenheit 451', donde los libros están prohibidos y se queman?",
+        "options": [
+          "Ray Bradbury",
+          "Aldous Huxley",
+          "Philip K. Dick",
+          "Arthur C. Clarke"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-i-019",
+        "question": "¿Qué escritora británica creó a la famosa detective anciana Miss Marple?",
+        "options": [
+          "Agatha Christie",
+          "Dorothy L. Sayers",
+          "Patricia Highsmith",
+          "P.D. James"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-i-020",
+        "question": "¿Cuál es la famosa novela picaresca española anónima publicada en 1554?",
+        "options": [
+          "El Buscón",
+          "El Lazarillo de Tormes",
+          "Guzmán de Alfarache",
+          "Rinconete y Cortadillo"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-i-021",
+        "question": "¿Qué poema épico anglosajón del siglo VIII narra la lucha contra el monstruo Grendel?",
+        "options": [
+          "El Cantar de Mio Cid",
+          "Beowulf",
+          "El Cantar de Roldán",
+          "La Canción de los Nibelungos"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-i-022",
+        "question": "¿Quién escribió 'La ciudad y los perros' y 'La fiesta del chivo'?",
+        "options": [
+          "Mario Vargas Llosa",
+          "Carlos Fuentes",
+          "Julio Ramón Ribeyro",
+          "Guillermo Cabrera Infante"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-i-023",
+        "question": "¿Qué obra filosófica y poética fue escrita por Friedrich Nietzsche introduciendo la idea del 'Superhombre'?",
+        "options": [
+          "Más allá del bien y del mal",
+          "Así habló Zaratustra",
+          "El genio del cristianismo",
+          "La gaya ciencia"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-i-024",
+        "question": "¿Quién es el autor del poema épico 'El Paraíso Perdido'?",
+        "options": [
+          "John Milton",
+          "William Blake",
+          "Geoffrey Chaucer",
+          "John Keats"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-i-025",
+        "question": "¿Qué escritora uruguaya ganó el Premio Cervantes en 2018?",
+        "options": [
+          "Juana de Ibarbourou",
+          "Ida Vitale",
+          "Delmira Agustini",
+          "Cristina Peri Rossi"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "advanced": [
+      {
+        "id": "lit-a-001",
+        "question": "¿En qué año se publicó la primera parte de 'Don Quijote de la Mancha'?",
+        "options": ["1605", "1615", "1598", "1620"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-a-002",
+        "question": "¿Quién es el autor de la monumental novela de siete tomos 'En busca del tiempo perdido'?",
+        "options": [
+          "Marcel Proust",
+          "Gustave Flaubert",
+          "Stendhal",
+          "André Gide"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-a-003",
+        "question": "¿Qué dramaturgo griego escribió las tragedias 'Edipo Rey' y 'Antígona'?",
+        "options": ["Esquilo", "Sófocles", "Eurípides", "Aristófanes"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-a-004",
+        "question": "¿Cómo se llama el poema épico mesopotámico considerado la obra literaria escrita más antigua conservada?",
+        "options": [
+          "Enuma Elish",
+          "Poema de Gilgamesh",
+          "Popol Vuh",
+          "Cantar de los Cantares"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-a-005",
+        "question": "¿Qué escritora estadounidense escribió 'El sonido y la furia'?",
+        "options": [
+          "William Faulkner",
+          "Flannery O'Connor",
+          "Toni Morrison",
+          "Harper Lee"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-a-006",
+        "question": "¿Qué autor vanguardista irlando escribió la influyente novela 'Ulises' publicada en 1922?",
+        "options": [
+          "James Joyce",
+          "Samuel Beckett",
+          "Oscar Wilde",
+          "W.B. Yeats"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-a-007",
+        "question": "¿En qué dialecto italiano medieval escribió Dante Alighieri 'La Divina Comedia'?",
+        "options": ["Veneciano", "Toscano", "Napolitano", "Siciliano"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-a-008",
+        "question": "¿Qué poeta romano es el autor de la 'Eneida'?",
+        "options": ["Ovidio", "Horacio", "Virgilio", "Lucano"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "lit-a-009",
+        "question": "¿Qué filósofo y escritor francés escribió la novela filosófica 'Cándido, o el optimismo'?",
+        "options": ["Voltaire", "Rousseau", "Diderot", "Montesquieu"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-a-010",
+        "question": "¿Quién escribió el clásico del teatro del absurdo 'Esperando a Godot'?",
+        "options": [
+          "Eugène Ionesco",
+          "Samuel Beckett",
+          "Jean Genet",
+          "Harold Pinter"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-a-011",
+        "question": "¿Qué escritora japonesa del siglo XI escribió la que muchos consideran la primera novela de la historia, 'El cantar de Genji'?",
+        "options": [
+          "Murasaki Shikibu",
+          "Sei Shōnagon",
+          "Ichiyō Higuchi",
+          "Yosano Akiko"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-a-012",
+        "question": "¿Qué movimiento literario hispanoamericano fue iniciado formalmente por Rubén Darío con la publicación de 'Azul...' en 1888?",
+        "options": ["Ultraísmo", "Modernismo", "Criollismo", "Indigenismo"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-a-013",
+        "question": "¿Quién escribió la obra poética 'Las flores del mal' (Les Fleurs du mal)?",
+        "options": [
+          "Arthur Rimbaud",
+          "Charles Baudelaire",
+          "Paul Verlaine",
+          "Stéphane Mallarmé"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-a-014",
+        "question": "¿Qué premio Nobel portugués escribió 'Ensayo sobre la ceguera'?",
+        "options": [
+          "José Saramago",
+          "Eça de Queirós",
+          "Fernando Pessoa",
+          "António Lobo Antunes"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-a-015",
+        "question": "¿Cuál es el heterónimo más famoso de Fernando Pessoa enfocado en el bucolismo y la naturaleza?",
+        "options": [
+          "Álvaro de Campos",
+          "Alberto Caeiro",
+          "Ricardo Reis",
+          "Bernardo Soares"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-a-016",
+        "question": "¿Quién fue la primera persona de América Latina en ganar un Premio Nobel de Literatura (1945)?",
+        "options": [
+          "Gabriela Mistral",
+          "Pablo Neruda",
+          "Miguel Ángel Asturias",
+          "Octavio Paz"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-a-017",
+        "question": "¿Qué tratado poético de Aristóteles sentó las bases teóricas de la tragedia clásica y la mimesis?",
+        "options": ["Retórica", "Poética", "Organon", "Metafísica"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-a-018",
+        "question": "¿Quién escribió 'Paradiso', una de las obras más complejas de la literatura cubana e hispanoamericana?",
+        "options": [
+          "Alejo Carpentier",
+          "José Lezama Lima",
+          "Guillermo Cabrera Infante",
+          "Virgilio Piñera"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-a-019",
+        "question": "¿Qué poeta de la Generación del 27 escribió 'Poeta en Nueva York'?",
+        "options": [
+          "Pedro Salinas",
+          "Federico García Lorca",
+          "Rafael Alberti",
+          "Luis Cernuda"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-a-020",
+        "question": "¿Qué novela romántica epistolar de Goethe desató una ola de pasión en Europa en 1774?",
+        "options": [
+          "Las cuitas del joven Werther",
+          "Fausto",
+          "Afinidades electivas",
+          "Wilhelm Meister"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-a-021",
+        "question": "¿Qué ensayista y poeta mexicano escribió 'El laberinto de la soledad'?",
+        "options": [
+          "Octavio Paz",
+          "Carlos Monsiváis",
+          "Alfonso Reyes",
+          "José Vasconcelos"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-a-022",
+        "question": "¿Qué historiador romano escribió los 'Anales' y las 'Historias'?",
+        "options": ["Tito Livio", "Tácito", "Suetonio", "Salustio"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "lit-a-023",
+        "question": "¿Qué escritora afroamericana escribió la novela ganadora del Pulitzer 'Beloved'?",
+        "options": [
+          "Toni Morrison",
+          "Alice Walker",
+          "Maya Angelou",
+          "Zora Neale Hurston"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-a-024",
+        "question": "¿Qué autor renacentista italiano escribió 'El Decamerón'?",
+        "options": [
+          "Giovanni Boccaccio",
+          "Francesco Petrarca",
+          "Ludovico Ariosto",
+          "Torquato Tasso"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "lit-a-025",
+        "question": "¿Qué autor inglés del siglo XIV escribió 'Los cuentos de Canterbury'?",
+        "options": [
+          "Geoffrey Chaucer",
+          "William Langland",
+          "John Gower",
+          "Thomas Malory"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ]
+  }
+}

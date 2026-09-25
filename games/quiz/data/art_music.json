@@ -1,0 +1,677 @@
+{
+  "categoryId": "art_music",
+  "categoryName": "Arte y Música",
+  "levels": {
+    "basic": [
+      {
+        "id": "artmus-b-001",
+        "question": "¿Cuántas notas musicales básicas existen en la escala diatónica natural (Do, Re, Mi...)?",
+        "options": ["5", "7", "8", "12"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-b-002",
+        "question": "¿Quién pintó el famoso cuadro de la 'Mona Lisa'?",
+        "options": [
+          "Vincent van Gogh",
+          "Leonardo da Vinci",
+          "Pablo Picasso",
+          "Michelangelo"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-b-003",
+        "question": "¿Qué instrumento musical de cuerda se toca colocándolo bajo la barbilla y usando un arco?",
+        "options": ["Guitarra", "Chelo", "Violín", "Arpa"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "artmus-b-004",
+        "question": "¿En qué museo de París se exhibe la 'Mona Lisa'?",
+        "options": [
+          "Museo del Prado",
+          "Museo del Louvre",
+          "National Gallery",
+          "MoMA"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-b-005",
+        "question": "¿Qué famoso compositor clásico continuó componiendo música incluso después de quedarse sordo?",
+        "options": ["Mozart", "Beethoven", "Bach", "Chopin"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-b-006",
+        "question": "¿Qué tres colores se consideran los colores primarios en la pintura?",
+        "options": [
+          "Rojo, Verde y Azul",
+          "Rojo, Amarillo y Azul",
+          "Naranja, Verde y Morado",
+          "Blanco, Negro y Rojo"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-b-007",
+        "question": "¿Qué instrumento musical se toca soplando y tiene teclas blancas y negras en una versión portátil con fuelle?",
+        "options": ["Acordeón", "Piano", "Flauta", "Saxofón"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-b-008",
+        "question": "¿Qué pintor neerlandés pintó 'La noche estrellada'?",
+        "options": [
+          "Rembrandt",
+          "Vincent van Gogh",
+          "Claude Monet",
+          "Johannes Vermeer"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-b-009",
+        "question": "¿Qué disciplina artística consiste en modelar, esculpir o tallar figuras en tres dimensiones?",
+        "options": ["Grabado", "Pintura", "Escultura", "Arquitectura"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "artmus-b-010",
+        "question": "¿Qué instrumento de percusión consiste en dos platillos metálicos que se chocan entre sí?",
+        "options": ["Triángulo", "Platillos", "Batería", "Tambor"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-b-011",
+        "question": "¿Qué artista española / mexicana es famosa por sus autorretratos y su icónico estilo con flores en el cabello?",
+        "options": [
+          "Frida Kahlo",
+          "Remedios Varo",
+          "Leonora Carrington",
+          "Isabel Allende"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-b-012",
+        "question": "¿Qué voz humana masculina es la más aguda en el canto clásico?",
+        "options": ["Bajo", "Barítono", "Tenor", "Contralto"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "artmus-b-013",
+        "question": "¿Qué instrumento de viento de madera se suele aprender a tocar en la escuela primaria?",
+        "options": ["Flauta dulce", "Clarinete", "Trompeta", "Oboe"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-b-014",
+        "question": "¿Quién esculpió la icónica estatua de 'El David' en mármol blanco?",
+        "options": ["Donatello", "Miguel Ángel", "Bernini", "Rodin"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-b-015",
+        "question": "¿Qué género musical nació en Nueva Orleans a principios del siglo XX impulsado por la comunidad afroamericana?",
+        "options": ["Rock and Roll", "Jazz", "Reggae", "Pop"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-b-016",
+        "question": "¿Qué técnica pictórica utiliza pigmentos disueltos en agua sobre papel o cartulina?",
+        "options": ["Óleo", "Acuarela", "Acrílico", "Pastel"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-b-017",
+        "question": "¿Qué instrumento musical tiene 88 teclas entre blancas y negras?",
+        "options": ["Órgano", "Piano", "Clavecín", "Xilófono"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-b-018",
+        "question": "¿Qué estilo artístico o arquitectónico es famoso por sus arcos de medio punto y gruesos muros en la Edad Media?",
+        "options": ["Gótico", "Románico", "Barroco", "Renacentista"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-b-019",
+        "question": "¿Quién es el autor de las famosas composiciones 'Las cuatro estaciones'?",
+        "options": [
+          "Antonio Vivaldi",
+          "Johann Sebastian Bach",
+          "Georg Friedrich Händel",
+          "Claudio Monteverdi"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-b-020",
+        "question": "¿Qué voz femenina es la más aguda en la ópera?",
+        "options": ["Soprano", "Mezzosoprano", "Contralto", "Tenor"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-b-021",
+        "question": "¿Qué nombre recibe el soporte de madera donde los pintores colocan el lienzo mientras trabajan?",
+        "options": ["Paleta", "Caballete", "Marco", "Enmarcado"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-b-022",
+        "question": "¿Qué instrumento de percusión afrocolombiano y caribeño está formado por dos tambores unidos?",
+        "options": ["Bongó", "Conga", "Timbal", "Tambora"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-b-023",
+        "question": "¿Qué célebre pintor español pintó 'Las Meninas'?",
+        "options": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Bartolomé Esteban Murillo",
+          "El Greco"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-b-024",
+        "question": "¿Qué símbolo al inicio del pentagrama indica la altura de las notas musicales (ej. Sol o Fa)?",
+        "options": ["Compás", "Clave", "Sostenido", "Bemol"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-b-025",
+        "question": "¿Qué obra pictórica representa a Jesús comiendo por última vez con sus apóstoles?",
+        "options": [
+          "La Creación de Adán",
+          "La Última Cena",
+          "La Piedad",
+          "El Juicio Final"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "artmus-i-001",
+        "question": "¿Qué movimiento artístico cofundaron Pablo Picasso y Georges Braque rompiendo con las formas tradicionales?",
+        "options": ["Surrealismo", "Cubismo", "Impresionismo", "Fauvismo"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-i-002",
+        "question": "¿Qué compositor barroco alemán escribió los 'Conciertos de Brandeburgo' y 'El clave bien temperado'?",
+        "options": [
+          "Johann Sebastian Bach",
+          "Joseph Haydn",
+          "Franz Liszt",
+          "Johannes Brahms"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-i-003",
+        "question": "¿Qué cuadro de Johannes Vermeer es a menudo llamado 'La Mona Lisa del Norte'?",
+        "options": [
+          "La lechera",
+          "La joven de la perla",
+          "Vista de Delft",
+          "La encajera"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-i-004",
+        "question": "¿Qué término musical indica que una pieza debe ejecutarse a un ritmo muy lento y majestuoso?",
+        "options": ["Allegro", "Adagio / Largo", "Presto", "Andante"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-i-005",
+        "question": "¿Qué artista renacentista pintó los frescos del techo de la Capilla Sixtina?",
+        "options": [
+          "Rafael Sanzio",
+          "Leonardo da Vinci",
+          "Miguel Ángel",
+          "Sandro Botticelli"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "artmus-i-006",
+        "question": "¿Qué instrumento de viento-metal tiene una vara deslizante en lugar de pistones para cambiar las notas?",
+        "options": ["Trompeta", "Trombón", "Tuba", "Trompa"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-i-007",
+        "question": "¿Qué movimiento pictórico francés del siglo XIX se caracterizó por pintar la luz natural al aire libre con pinceladas sueltas?",
+        "options": ["Realismo", "Impresionismo", "Romanticismo", "Simbolismo"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-i-008",
+        "question": "¿Qué ópera de Wolfgang Amadeus Mozart presenta personajes como Papageno y la Reina de la Noche?",
+        "options": [
+          "Don Giovanni",
+          "Las bodas de Fígaro",
+          "La flauta mágica",
+          "Così fan tutte"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "artmus-i-009",
+        "question": "¿Qué pintor español es famoso por sus obras impresionantes como 'El Guernica' y 'Las señoritas de Avignon'?",
+        "options": [
+          "Joan Miró",
+          "Pablo Picasso",
+          "Salvador Dalí",
+          "Antoni Tàpies"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-i-010",
+        "question": "¿Qué compositor polaco del Romanticismo escribió casi exclusivamente para piano (nocturnos, baladas, mazurcas)?",
+        "options": [
+          "Frédéric Chopin",
+          "Franz Schubert",
+          "Robert Schumann",
+          "Felix Mendelssohn"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-i-011",
+        "question": "¿Qué escultor francés del siglo XIX creó las famosas obras 'El Pensador' y 'El Beso'?",
+        "options": [
+          "Auguste Rodin",
+          "Camille Claudel",
+          "Jean-Baptiste Carpeaux",
+          "Antoine Bourdelle"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-i-012",
+        "question": "¿Qué escala musical está formada por 12 notas separadas por medio tono cada una?",
+        "options": [
+          "Escala Pentatónica",
+          "Escala Cromática",
+          "Escala Mayor",
+          "Escala Menor relativa"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-i-013",
+        "question": "¿Qué cuadro renacentista de Sandro Botticelli representa a la diosa del amor surgiendo del mar sobre una concha?",
+        "options": [
+          "La Primavera",
+          "El Nacimiento de Venus",
+          "Venus y Marte",
+          "La Pallas y el Centauro"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-i-014",
+        "question": "¿Qué influyente saxofonista de jazz fue clave en el desarrollo del estilo Bebop junto a Dizzy Gillespie?",
+        "options": [
+          "Miles Davis",
+          "Charlie Parker",
+          "John Coltrane",
+          "Duke Ellington"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-i-015",
+        "question": "¿Qué pintor surrealista español creó 'La persistencia de la memoria' con sus famosos relojes derretidos?",
+        "options": [
+          "Salvador Dalí",
+          "Rene Magritte",
+          "Max Ernst",
+          "Yves Tanguy"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-i-016",
+        "question": "¿Qué compositor ruso escribió los célebres ballets 'El lago de los cisnes' y 'El cascanueces'?",
+        "options": [
+          "Igor Stravinsky",
+          "Pyotr Ilyich Tchaikovsky",
+          "Sergei Rachmaninoff",
+          "Modest Mussorgsky"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-i-017",
+        "question": "¿Qué arquitecto modernista catalán es el responsable del diseño del Templo de la Sagrada Familia?",
+        "options": [
+          "Antoni Gaudí",
+          "Lluís Domènech i Montaner",
+          "Josep Puig i Cadafalch",
+          "Enric Sagnier"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-i-018",
+        "question": "¿Qué término musical designa un cambio progresivo hacia un volumen más fuerte?",
+        "options": ["Diminuendo", "Crescendo", "Staccato", "Legato"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-i-019",
+        "question": "¿Qué pintor impresionista francés es famoso por su serie de pinturas de nenúfares y su jardín en Giverny?",
+        "options": [
+          "Edgar Degas",
+          "Pierre-Auguste Renoir",
+          "Claude Monet",
+          "Paul Cézanne"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "artmus-i-020",
+        "question": "¿Qué famoso trompetista y compositor estadounidense revolucionó el jazz con su álbum 'Kind of Blue' (1959)?",
+        "options": [
+          "Louis Armstrong",
+          "Miles Davis",
+          "Chet Baker",
+          "Thelonious Monk"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-i-021",
+        "question": "¿En qué estilo artístico del siglo XVII predomina el dramatismo, el contraste de sombras (claroscuro) y la recarga ornamental?",
+        "options": ["Barroco", "Rococó", "Neoclasicismo", "Renacimiento"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-i-022",
+        "question": "¿Qué obra coral de Beethoven forma el movimiento final de su Novena Sinfonía?",
+        "options": ["Missa Solemnis", "Oda a la Alegría", "Requiem", "Te Deum"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-i-023",
+        "question": "¿Qué célebre pintor barroco italiano revolucionó la pintura con su uso radical del claroscuro y el tenebrismo?",
+        "options": ["Caravaggio", "Bernini", "Tiziano", "Tintoretto"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-i-024",
+        "question": "¿Qué instrumento transpositor de viento-madera utiliza una lengüeta doble para producir su sonido grave e intencionadamente nasal?",
+        "options": ["Flauta traversa", "Fagot", "Saxofón tenor", "Clarinete"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-i-025",
+        "question": "¿Qué influyente muralista mexicano pintó obras masivas de contenido social en edificios públicos como el Palacio de Bellas Artes?",
+        "options": [
+          "Diego Rivera",
+          "David Alfaro Siqueiros",
+          "José Clemente Orozco",
+          "Rufino Tamayo"
+        ],
+        "correctAnswerIndex": 0
+      }
+    ],
+    "advanced": [
+      {
+        "id": "artmus-a-001",
+        "question": "¿Qué compositor austríaco del siglo XX desarrolló el dodecafonismo y la técnica serialista en la música?",
+        "options": [
+          "Arnold Schoenberg",
+          "Alban Berg",
+          "Anton Webern",
+          "Gustav Mahler"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-a-002",
+        "question": "¿Qué cuadro de Claude Monet de 1872 dio origen al nombre del movimiento 'Impresionismo'?",
+        "options": [
+          "Los almiares",
+          "Impresión, sol naciente",
+          "Catedral de Rouen",
+          "El paseo"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-a-003",
+        "question": "¿Qué ballet de Igor Stravinsky provocó un célebre altercado y tumulto en su estreno en París en 1913 por su ritmo rompedor?",
+        "options": [
+          "El pájaro de fuego",
+          "Petrushka",
+          "La consagración de la primavera",
+          "Pulcinella"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "artmus-a-004",
+        "question": "¿Qué artista estadounidense fue la figura máxima del Pop Art con obras como 'Cajas de Brillo' y retratos de Marilyn Monroe?",
+        "options": [
+          "Roy Lichtenstein",
+          "Andy Warhol",
+          "Keith Haring",
+          "Jasper Johns"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-a-005",
+        "question": "¿Qué forma musical barroca se basa en el contrapunto estricto y la imitación sistemática de un tema principal por varias voces?",
+        "options": ["Sonata", "Fuga", "Sinfonía", "Suite"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-a-006",
+        "question": "¿Qué postimpresionista francés es considerado el 'padre de la pintura moderna' por preparar el camino hacia el cubismo con su estructura de formas geométricas?",
+        "options": [
+          "Paul Gauguin",
+          "Paul Cézanne",
+          "Georges Seurat",
+          "Henri de Toulouse-Lautrec"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-a-007",
+        "question": "¿Qué ópera monumental en cuatro partes de Richard Wagner dura cerca de 15 horas en total?",
+        "options": [
+          "Tristán e Isolda",
+          "El anillo del nibelungo",
+          "Parsifal",
+          "Lohengrin"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-a-008",
+        "question": "¿Qué técnica de pintura inventada por los expresionistas abstractos consiste en dejar gotear o chorrear pintura directamente sobre el lienzo (action painting)?",
+        "options": ["Frottage", "Dripping", "Collage", "Esfumado (Sfumato)"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-a-009",
+        "question": "¿Qué compositor francés impresionista escribió 'Clair de Lune' y 'Preludio a la siesta de un fauno'?",
+        "options": [
+          "Maurice Ravel",
+          "Claude Debussy",
+          "Erik Satie",
+          "Gabriel Fauré"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-a-010",
+        "question": "¿Qué técnica pictórica refinada por Leonardo da Vinci suaviza las transiciones entre colores creando bordes difuminados y sombríos?",
+        "options": ["Claroscuro", "Sfumato", "Impasto", "Grisalla"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-a-011",
+        "question": "¿Qué compositor húngaro del Romanticismo fue considerado el virtuoso del piano más deslumbrante de su época y creó el poema sinfónico?",
+        "options": [
+          "Franz Liszt",
+          "Béla Bartók",
+          "Zoltán Kodály",
+          "Ernő Dohnányi"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-a-012",
+        "question": "¿Qué artista conceptual expuso un orinacional titulado 'Fuente' en 1917 bajo el seudónimo R. Mutt?",
+        "options": [
+          "Marcel Duchamp",
+          "Man Ray",
+          "Francis Picabia",
+          "Max Ernst"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-a-013",
+        "question": "¿Qué intervalo musical abarca ocho notas de la escala diatónica y duplica exactamente la frecuencia de la nota fundamental?",
+        "options": ["Quinta justa", "Tercera mayor", "Octava", "Tritono"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "artmus-a-014",
+        "question": "¿Qué pintor holandés del siglo XVII es famoso por obras monumentales como 'La ronda de noche'?",
+        "options": [
+          "Rembrandt",
+          "Jan Steen",
+          "Frans Hals",
+          "Jacob van Ruisdael"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-a-015",
+        "question": "¿Qué obra sinfónica programática compuso Hector Berlioz inspirada en su obsesión amorosa no correspondida?",
+        "options": [
+          "Sinfonía Fantástica",
+          "Harold en Italia",
+          "Romeo y Julieta",
+          "Sinfonía Funebre"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-a-016",
+        "question": "¿Qué movimiento artístico abstracto fundado por Kazimir Malevich buscaba la supremacía del sentimiento puro a través de formas geométricas simples?",
+        "options": [
+          "Constructivismo",
+          "Suprematismo",
+          "De Stijl",
+          "Neoplasticismo"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-a-017",
+        "question": "¿Qué compositor impresionista francés creó la célebre pieza orquestal 'Bolero' basada en un crescendo rítmico obsesivo?",
+        "options": [
+          "Maurice Ravel",
+          "Claude Debussy",
+          "Paul Dukas",
+          "Camille Saint-Saëns"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-a-018",
+        "question": "¿Qué arquitecto y teórico renacentista escribió el célebre tratado 'De re aedificatoria' y diseñó la fachada de Santa Maria Novella?",
+        "options": [
+          "Leon Battista Alberti",
+          "Filippo Brunelleschi",
+          "Andrea Palladio",
+          "Donato Bramante"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-a-019",
+        "question": "¿En qué consistía la técnica del 'Puntillismo' desarrollada por Georges Seurat y Paul Signac?",
+        "options": [
+          "Aplicar manchas de espátula",
+          "Aplicar pequeños puntos de color puro que el ojo combina",
+          "Pintar con pigmentos secos",
+          "Trazar líneas paralelas continuas"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-a-020",
+        "question": "¿Qué filósofo y compositor avant-garde escribió la obra '4′33″', compuesta enteramente por 4 minutos y 33 segundos de silencio ambiental?",
+        "options": [
+          "John Cage",
+          "Karlheinz Stockhausen",
+          "Philip Glass",
+          "Steve Reich"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "artmus-a-021",
+        "question": "¿Qué afamado retablo gótico flamenco compuesto por 12 paneles pintados fue creado por los hermanos Hubert y Jan van Eyck?",
+        "options": [
+          "Retablo de Isenheim",
+          "Adoración del Cordero Místico (Retablo de Gante)",
+          "El Jardín de las Delicias",
+          "Tríptico de la Marea"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-a-022",
+        "question": "¿Qué modo musical antiguo corresponde a la escala mayor natural empezando desde la quinta nota?",
+        "options": ["Dórico", "Mixolidio", "Lidio", "Frigio"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-a-023",
+        "question": "¿Qué influyente movimiento de diseño, arte y arquitectura fue fundado por Walter Gropius en Weimar en 1919?",
+        "options": ["De Stijl", "Bauhaus", "Art Nouveau", "Art Déco"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-a-024",
+        "question": "¿Qué célebre obra del Bosco es un complejo tríptico al óleo que muestra el Paraíso, el mundo terrenal y el Infierno?",
+        "options": [
+          "El carro de heno",
+          "El jardín de las delicias",
+          "El juicio final",
+          "La nave de los locos"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "artmus-a-025",
+        "question": "¿Qué técnica de afinación musical dividió la octava en 12 semitonos exactamente iguales, permitiendo modular a cualquier tonalidad?",
+        "options": [
+          "Temperamento Justo",
+          "Temperamento Igual",
+          "Temperamento Pitagórico",
+          "Afinación Mesotónica"
+        ],
+        "correctAnswerIndex": 1
+      }
+    ]
+  }
+}

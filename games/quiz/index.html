@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <script defer type="module" src="/src/main.js"></script>
+  <title>Quiz App</title>
+</head>
+
+<body>
+  <main class="container">
+
+    <section class="quiz-configuration active">
+      <h2>Configuración</h2>
+      <h3>Selecciona una categoría</h3>
+      <div class="categories">
+        <button>Cateoría 1</button>
+        <button>Cateoría 2</button>
+        <button>Cateoría 3</button>
+        <button>Cateoría 4</button>
+        <button>Cateoría 5</button>
+        <button>Cateoría 6</button>
+      </div>
+      <h3>Selecciona un nivel de dificultad</h3>
+      <div class="levels">
+        <button>Básico</button>
+        <button>Intermedio</button>
+        <button>Avanzado</button>
+      </div>
+      <h3>Nº de Preguntas</h3>
+      <div class="num-questions">
+        <button>5</button>
+        <button>10</button>
+        <button>15</button>
+        <button>20</button>
+        <button>25</button>
+      </div>
+      <div class="buttons">
+        <button class="btn-start">Comenzar</button>
+        <button class="btn-start">Mejor Puntaje</button>
+      </div>
+    </section>
+
+    <section class="quiz-questions hide">
+
+      <div class="title">
+        <h3>Quiz</h3>
+        <div class="timer">00</div>
+      </div>
+
+      <h4 class="question">Aquí va la pregunta</h4>
+
+      <div class="anwers-container">
+        <button>Respuesta 1</button>
+        <button>Respuesta 2</button>
+        <button>Respuesta 3</button>
+        <button>Respuesta 4</button>
+      </div>
+
+      <footer>
+        <span></span>
+        <span></span>
+        <span></span>
+      </footer>
+    </section>
+
+    <section class="quiz-results hide">
+      <img src="/src/assets/goal.png" alt="Triunfo">
+      <h3>Juego Completo!</h3>
+      <p>Has respondido correctamente <span class="correct-anwers">5</span> de <span class="total-answers">5</span>
+        preguntas!</p>
+      <h4>Buen trabajo</h4>
+      <button class="btn-restart">Reiniciar</button>
+
+    </section>
+
+  </main>
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,557 @@
+{
+  "categoryId": "geography",
+  "categoryName": "Geografía",
+  "levels": {
+    "basic": [
+      {
+        "id": "geog-b-001",
+        "question": "¿Cuál es el océano más grande del mundo?",
+        "options": [
+          "Océano Atlántico",
+          "Océano Índico",
+          "Océano Pacífico",
+          "Océano Ártico"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-b-002",
+        "question": "¿Cuál es la capital de Italia?",
+        "options": ["Roma", "Milán", "Venecia", "Florencia"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "geog-b-003",
+        "question": "¿En qué continente se encuentra Brasil?",
+        "options": ["África", "América del Sur", "Europa", "Asia"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-b-004",
+        "question": "¿Cuál es el río más largo del mundo?",
+        "options": ["Río Nilo", "Río Misisipi", "Río Amazonas", "Río Yangtze"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-b-005",
+        "question": "¿En qué país se encuentra la famosa cordillera de los Alpes?",
+        "options": ["Japón", "Suiza", "Canadá", "Sudáfrica"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-b-006",
+        "question": "¿En qué continente se encuentra China?",
+        "options": ["Europa", "Asia", "África", "Oceanía"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-b-007",
+        "question": "¿Cuál es la capital de España?",
+        "options": ["Barcelona", "Sevilla", "Madrid", "Valencia"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-b-008",
+        "question": "¿Qué importante línea imaginaria divide a la Tierra en Hemisferio Norte y Hemisferio Sur?",
+        "options": [
+          "El Trópico de Cáncer",
+          "El Meridiano de Greenwich",
+          "El Círculo Polar Ártico",
+          "El Ecuador"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "geog-b-009",
+        "question": "¿Cuál es el continente más frío y desértico del planeta?",
+        "options": ["Antártida", "Europa", "América del Norte", "Asia"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "geog-b-010",
+        "question": "¿Cuál es la capital de Francia?",
+        "options": ["Lyon", "Marsella", "Niza", "París"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "geog-b-011",
+        "question": "¿Qué canal artificial une el Océano Atlántico con el Océano Pacífico?",
+        "options": [
+          "Canal de Suez",
+          "Canal de Panamá",
+          "Canal de la Mancha",
+          "Canal de Kiel"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-b-012",
+        "question": "¿Cuál es el país más poblado de Sudamérica?",
+        "options": ["Argentina", "Colombia", "Brasil", "Perú"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-b-013",
+        "question": "¿En qué país se encuentra la famosa Gran Muralla?",
+        "options": ["Japón", "China", "Corea del Sur", "Mongolia"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-b-014",
+        "question": "¿Cuál es la capital de México?",
+        "options": ["Guadalajara", "Monterrey", "Cancún", "Ciudad de México"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "geog-b-015",
+        "question": "¿En qué continente se encuentra Egipto?",
+        "options": ["África", "Asia", "Europa", "Oceanía"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "geog-b-016",
+        "question": "¿Cuál es el país con mayor número de habitantes en el mundo?",
+        "options": ["Estados Unidos", "India", "Rusia", "Brasil"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-b-017",
+        "question": "¿Qué gran isla del norte del Atlántico es considerada la isla más grande del mundo?",
+        "options": ["Madagascar", "Groenlandia", "Islandia", "Gran Bretaña"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-b-018",
+        "question": "¿Cuál es la capital de Japón?",
+        "options": ["Kioto", "Osaka", "Tokio", "Yokohama"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-b-019",
+        "question": "¿En qué cordillera se encuentra el monte Everest, la montaña más alta del mundo sobre el nivel del mar?",
+        "options": [
+          "Los Andes",
+          "Los Alpes",
+          "El Himalaya",
+          "Las Montañas Rocosas"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-b-020",
+        "question": "¿Cuál es el océano ubicado en el polo norte de la Tierra?",
+        "options": [
+          "Océano Pacífico",
+          "Océano Ártico",
+          "Océano Antártico",
+          "Océano Índico"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-b-021",
+        "question": "¿Cuál es la capital de Argentina?",
+        "options": ["Buenos Aires", "Córdoba", "Rosario", "Mendoza"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "geog-b-022",
+        "question": "¿Qué país europeo tiene forma de bota geográfica en el mapa?",
+        "options": ["Grecia", "Portugal", "España", "Italia"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "geog-b-023",
+        "question": "¿Qué isla africana es famosa por su biodiversidad única y por ser la cuarta más grande del mundo?",
+        "options": ["Madagascar", "Sicilia", "Sri Lanka", "Tasmania"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "geog-b-024",
+        "question": "¿Cuál es la capital de los Estados Unidos?",
+        "options": ["Nueva York", "Los Ángeles", "Washington D.C.", "Chicago"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-b-025",
+        "question": "¿En qué continente se encuentra el desierto del Sahara?",
+        "options": ["Asia", "África", "Australia", "América"],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "geog-i-001",
+        "question": "¿Cuál es el país más grande del mundo por superficie terrestre?",
+        "options": ["Canadá", "China", "Estados Unidos", "Rusia"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "geog-i-002",
+        "question": "¿Cuál es la capital de Australia?",
+        "options": ["Sídney", "Canberra", "Melbourne", "Brisbane"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-i-003",
+        "question": "¿Qué estrecho separa el continente africano del europeo?",
+        "options": [
+          "Estrecho de Bering",
+          "Estrecho de Magallanes",
+          "Estrecho de Gibraltar",
+          "Estrecho de Ormuz"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-i-004",
+        "question": "¿Cuál es el desierto cálido más grande del mundo?",
+        "options": [
+          "Desierto de Atacama",
+          "Desierto del Sahara",
+          "Desierto de Gobi",
+          "Desierto de Kalahari"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-i-005",
+        "question": "¿En qué país se encuentra el lago Baikal, el lago de agua dulce más profundo del mundo?",
+        "options": ["Rusia", "Canadá", "Finlandia", "Kazajistán"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "geog-i-006",
+        "question": "¿Qué río atraviesa la ciudad de Londres?",
+        "options": ["Río Sena", "Río Rin", "Río Tamesis", "Río Danubio"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-i-007",
+        "question": "¿Cuál es el país más pequeño del mundo en términos de superficie?",
+        "options": [
+          "Mónaco",
+          "Ciudad del Vaticano",
+          "San Marino",
+          "Liechtenstein"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-i-008",
+        "question": "¿Cuál es la capital de Alemania?",
+        "options": ["Múnich", "Módica", "Berlín", "Hamburgo"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-i-009",
+        "question": "¿Qué lago intercontinental es considerado el cuerpo de agua interior más grande del mundo?",
+        "options": [
+          "Mar Caspio",
+          "Lago Superior",
+          "Lago Victoria",
+          "Mar Muerto"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "geog-i-010",
+        "question": "¿En qué país se encuentran los famosos fiordos de Geiranger y Nærøyfjord?",
+        "options": ["Suecia", "Finlandia", "Noruega", "Dinamarca"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-i-011",
+        "question": "¿Cuál es la capital de Brasil?",
+        "options": [
+          "Río de Janeiro",
+          "São Paulo",
+          "Salvador de Bahía",
+          "Brasilia"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "geog-i-012",
+        "question": "¿Qué cadena montañosa es la más larga de la Tierra y bordea la costa occidental de América del Sur?",
+        "options": ["Las Rocosas", "Los Andes", "Los Alpes", "Los Apalaches"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-i-013",
+        "question": "¿Cuál es el punto más bajo de la superficie terrestre emergida?",
+        "options": [
+          "Depresión de Danakil",
+          "Mar Muerto",
+          "Valle de la Muerte",
+          "Lago Baikal"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-i-014",
+        "question": "¿Cuál es la capital de Portugal?",
+        "options": ["Oporto", "Lisboa", "Faro", "Coímbra"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-i-015",
+        "question": "¿Qué importante río europeo nace en Alemania y desemboca en el Mar Negro atravesando 10 países?",
+        "options": ["Río Rin", "Río Volga", "Río Danubio", "Río Sena"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-i-016",
+        "question": "¿Cuál es la capital de Turquía?",
+        "options": ["Estambul", "Ankara", "Esmirna", "Antalya"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-i-017",
+        "question": "¿Qué mar separa a la península itálica de la península balcánica?",
+        "options": ["Mar Adriático", "Mar Tirreno", "Mar Egeo", "Mar Jónico"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "geog-i-018",
+        "question": "¿En qué país se encuentra la famosa maravilla natural del Salto Ángel?",
+        "options": ["Colombia", "Brasil", "Venezuela", "Guyana"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-i-019",
+        "question": "¿Cuál es la capital de Egipto?",
+        "options": ["Alejandría", "El Cairo", "Lúxor", "Gizé"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-i-020",
+        "question": "¿Qué volcán italiano sepultó las antiguas ciudades de Pompeya y Herculano en el año 79 d.C.?",
+        "options": ["Monte Etna", "Monte Vesubio", "Stromboli", "Vulcano"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-i-021",
+        "question": "¿Cuál es el país sin litoral más extenso del mundo?",
+        "options": ["Mongolia", "Kazajistán", "Bolivia", "Níger"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-i-022",
+        "question": "¿Cuál es la capital de Colombia?",
+        "options": ["Medellín", "Cali", "Barranquilla", "Bogotá"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "geog-i-023",
+        "question": "¿Qué importante canal marítimo conecta el Mar Mediterráneo con el Mar Rojo?",
+        "options": [
+          "Canal de Kiel",
+          "Canal de Suez",
+          "Canal de Corinto",
+          "Canal de Panamá"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-i-024",
+        "question": "¿Cuál es la capital de Corea del Sur?",
+        "options": ["Busan", "Incheon", "Seúl", "Daegu"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-i-025",
+        "question": "¿En qué país se encuentra la región geográfica del Tíbet, conocida como 'El techo del mundo'?",
+        "options": ["India", "Nepal", "China", "Bután"],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "advanced": [
+      {
+        "id": "geog-a-001",
+        "question": "¿Cuál es la capital de Canadá?",
+        "options": ["Toronto", "Vancouver", "Montreal", "Ottawa"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "geog-a-002",
+        "question": "¿Qué país no tiene salida al mar en América del Sur además de Bolivia?",
+        "options": ["Paraguay", "Uruguay", "Ecuador", "Guyana"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "geog-a-003",
+        "question": "¿Cuál es el pico más alto de África?",
+        "options": [
+          "Monte Kenia",
+          "Monte Kilimanjaro",
+          "Monte Elbrús",
+          "Monte Ras Dashen"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-a-004",
+        "question": "¿Qué país de África tiene tres capitales oficiales (Pretoria, Ciudad del Cabo y Bloemfontein)?",
+        "options": ["Nigeria", "Kenia", "Sudáfrica", "Egipto"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-a-005",
+        "question": "¿Cuál es la capital de Nueva Zelanda?",
+        "options": ["Auckland", "Wellington", "Christchurch", "Hamilton"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-a-006",
+        "question": "¿Cuál es la capital de Marruecos?",
+        "options": ["Casablanca", "Marrakech", "Rabat", "Tánger"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-a-007",
+        "question": "¿Qué estrecho separa la isla de Gran Bretaña de la costa de Francia?",
+        "options": [
+          "Paso de Calais (Estrecho de Dover)",
+          "Estrecho de Kattegat",
+          "Estrecho de Mesina",
+          "Estrecho de Skagerrak"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "geog-a-008",
+        "question": "¿Cuál es la capital de Suiza?",
+        "options": ["Ginebra", "Zúrich", "Berna", "Basilea"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-a-009",
+        "question": "¿Cuál es la fosa oceánica más profunda conocida en la Tierra?",
+        "options": [
+          "Fosa de Puerto Rico",
+          "Fosa de las Marianas",
+          "Fosa de las Sandwich del Sur",
+          "Fosa de Filipinas"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-a-010",
+        "question": "¿Cuál es la capital de Islandia?",
+        "options": ["Reikiavik", "Akureyri", "Keflavík", "Kópavogur"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "geog-a-011",
+        "question": "¿En qué país se encuentra la meseta de Anatolia?",
+        "options": ["Grecia", "Turquía", "Irán", "Siria"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-a-012",
+        "question": "¿Cuál es la capital de Kenia?",
+        "options": ["Mombasa", "Kisumu", "Nairobi", "Nakuru"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-a-013",
+        "question": "¿Qué río de Asia Central desembocaba históricamente en el casi desaparecido Mar de Aral junto al Amu Daria?",
+        "options": ["Río Sir Daria", "Río Irtysh", "Río Yeniséi", "Río Lena"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "geog-a-014",
+        "question": "¿Cuál es la capital de Vietnam?",
+        "options": ["Ho Chi Minh", "Hanói", "Da Nang", "Haiphong"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-a-015",
+        "question": "¿Qué archipiélago atlántico compuesto por 9 islas de origen volcánico es una región autónoma de Portugal?",
+        "options": [
+          "Islas Canarias",
+          "Islas Azores",
+          "Islas Baleares",
+          "Islas Madeira"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-a-016",
+        "question": "¿Cuál es la capital de Nigeria?",
+        "options": ["Lagos", "Kano", "Ibadán", "Abu contestada (Abuja)"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "geog-a-017",
+        "question": "¿Qué península comprende los territorios de España, Portugal, Andorra y Gibraltar?",
+        "options": [
+          "Península Escandinava",
+          "Península Ibérica",
+          "Península Itálica",
+          "Península Balcánica"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-a-018",
+        "question": "¿Cuál es la capital de Kazajistán?",
+        "options": ["Almaty", "Astracán", "Astaná", "Shymkent"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-a-019",
+        "question": "¿Qué desierto de América del Sur es considerado el desierto no polar más árido de la Tierra?",
+        "options": [
+          "Desierto de Atacama",
+          "Desierto de la Patagonia",
+          "Desierto del Sechura",
+          "Desierto de Monte"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "id": "geog-a-020",
+        "question": "¿Cuál es la capital de Tailandia?",
+        "options": ["Chiang Mai", "Phuket", "Bangkok", "Pattaya"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-a-021",
+        "question": "¿Qué río es el más largo de Europa y desemboca en el Mar Caspio?",
+        "options": ["Río Danubio", "Río Volga", "Río Dniéper", "Río Don"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-a-022",
+        "question": "¿Cuál es la capital de Pakistán?",
+        "options": ["Karachi", "Lahore", "Islamabad", "Peshawar"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "geog-a-023",
+        "question": "¿En qué archipiélago del Océano Pacífico se encuentran las islas Isabela, Santa Cruz y San Cristóbal?",
+        "options": [
+          "Islas Hawái",
+          "Islas Galápagos",
+          "Islas Fiyi",
+          "Islas Salomón"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "geog-a-024",
+        "question": "¿Cuál es la capital de Finlandia?",
+        "options": ["Tampere", "Turku", "Espoo", "Helsinki"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "id": "geog-a-025",
+        "question": "¿Qué país africano cuenta con la isla de Zanzíbar dentro de su territorio soberano?",
+        "options": ["Kenia", "Tanzania", "Mozambique", "Madagascar"],
+        "correctAnswerIndex": 1
+      }
+    ]
+  }
+}
