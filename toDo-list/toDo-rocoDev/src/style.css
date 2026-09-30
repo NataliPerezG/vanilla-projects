@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-color: #1f202a;
+  --medium-color: #3c5699;
+  --basic-color: #516bba;
+  --light-color: #f8f4e9;
+  --shadow-color: #6969909f;
+  --font: "Englebert", cursive;
+
+}
+
+body {
+  background: var(--dark-color);
+  min-height: 100dvh;
+  color: var(--light-color);
+  font-family: var(--font);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-block: 20px;
+}
+
+.container {
+  width: clamp(350px, 80%, 700px);
+  margin: 10px auto;
+  padding: 20px;
+}
+
+input {
+  background-color: var(--shadow-color);
+  width: 75%;
+  margin: 0 auto;
+  padding: 10px 15px;
+  border: 1px solid var(--medium-color);
+  border-radius: 10px;
+  outline: none;
+  color: var(--light-color);
+  font-family: var(--font);
+  letter-spacing: 2px;
+  font-size: 1rem;
+
+  &::placeholder {
+    color: rgb(192, 193, 195);
+    font-family: var(--font);
+    letter-spacing: 2px;
+    font-size: .9rem;
+  }
+}
+
+button {
+  background: var(--basic-color);
+  width: 20%;
+  padding: 10px;
+  border: 1px solid var(--medium-color);
+  outline: none;
+  border-radius: 10px;
+  color: var(--light-color);
+  font-family: var(--font);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  transform: scale(1);
+  transition:
+    transform 250ms linear,
+    background-color 500ms linear,
+    color 300ms linear;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #3c5699;
+  }
+}
+
+.form-create {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  button:hover {
+    color: rgba(240, 194, 234, 0.79);
+    border: none;
+  }
+
+  i {
+    font-size: 1.1rem;
+  }
+}
+
+.task {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.task-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+  h3 {
+    width: 60%;
+    padding-inline-start: 10px;
+    letter-spacing: 2px;
+  }
+
+  .role-group {
+    min-width: 25%;
+    display: flex;
+    gap: 5px;
+
+    button {
+      width: 30%;
+      border-radius: 5px;
+
+      i {
+        font-size: 1.3rem;
+      }
+
+      .fa-thumbs-up {
+        color: rgb(57, 176, 99);
+      }
+
+      &.btn-edit:hover {
+        color: rgb(238, 211, 104);
+      }
+
+      &.btn-success:hover {
+        color: rgb(57, 176, 99);
+      }
+
+      .fa-thumbs-down {
+        color: var(--light-color);
+      }
+
+      .fa-thumbs-up {
+        color: rgb(57, 176, 99);
+      }
+
+      &.btn-delete:hover {
+        color: rgb(245, 122, 101);
+      }
+    }
+  }
+}
+
+.form-edit {
+  width: 80%;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+
+  input {
+    width: 100%;
+  }
+
+  button {
+    width: 50%;
+  }
+
+}
+
+.hidden {
+  display: none;
+}
