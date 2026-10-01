@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script type="module" defer src="/src/main.js"></script>
+  <title>Lista de Taras</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Lista de Tareas</h1>
+    <section class="status">
+      <p class="total-tasks">Total tareas: 0</p>
+      <p class="completed-tasks">Tareas completadas: 0</p>
+    </section>
+  </header>
+
+  <main>
+    <form class="form">
+      <label for="input">Escribe tu tarea</label>
+      <input type="text" autofocus id="input">
+      <button>Agregar tarea</button>
+    </form>
+    <ul class="container-tasks">
+      <h2>Tus tareas aparecerán aquí.</h2>
+      <!-- <li class="task">
+        <p class="text completed"> Tarea desde el HTML</p>
+        <div class="buttons">
+          <button class="complete">
+            <img src="./src/assets/icons8-checkmark-50.png" alt="">
+          </button>
+          <button class="delete">
+            <img src="./src/assets/icons8-cancel-50.png" alt="">
+          </button>
+        </div>
+      </li> -->
+    </ul>
+  </main>
+
+</body>
+
+</html>
