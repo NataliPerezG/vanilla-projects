@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #eee;
+  --font: "Livvic", sans-serif;
+
+}
+
+body {
+  background-color: var(--bg-color);
+  color: rgb(65, 29, 29);
+  font-family: var(--font);
+}

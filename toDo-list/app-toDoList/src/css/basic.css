@@ -1,0 +1,157 @@
+@import './common.css';
+
+.container {
+  width: clamp(400px, 95%, 1000px);
+  min-height: 50dvh;
+  background-color: rgb(202, 193, 195);
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.header {
+  width: 100%;
+  padding: 20px;
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-weight: 500;
+  }
+}
+
+.controls {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.form {
+  width: 60%;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgba(102, 91, 144, 0.5);
+  color: rgb(65, 29, 29);
+  font-family: var(--font);
+  font-size: 1.2rem;
+  letter-spacing: 1.2px;
+
+  &::placeholder {
+    color: rgba(245, 245, 245, 0.4)
+  }
+}
+
+.btn {
+
+  border-radius: 30%;
+  corner-shape: squircle;
+  border: none;
+  background-color: transparent;
+  display: grid;
+  place-content: center;
+  transition: transform 200ms linear, background-color, 200ms linear;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgba(245, 245, 245, 0.4);
+  }
+
+}
+
+.btn-add {
+  width: 8%;
+
+  i {
+    font-size: 2.6rem;
+    color: rgb(11, 124, 11);
+  }
+}
+
+.container-tasks {
+  padding: 10px;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.taks {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task {
+  background-color: rgba(190, 157, 152, 0.649);
+  padding: 5px 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+
+  label {
+    display: flex;
+    align-items: center;
+
+    .checkbox {
+      display: none;
+    }
+
+    i {
+      font-size: 1.3rem;
+      color: rgba(90, 77, 143, 0.7);
+    }
+
+    span {
+      font-size: 1.2rem;
+      margin-left: 5px;
+      font-weight: 300;
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+
+.task-buttons {
+  width: 12%;
+  display: flex;
+  justify-content: space-around;
+
+  .btn {
+
+    i {
+      font-size: 1.5rem;
+
+      &.fa-pen-to-square {
+        color: rgb(178, 129, 24);
+      }
+
+      &.fa-trash {
+        color: rgb(178, 50, 24);
+      }
+    }
+
+
+  }
+}
