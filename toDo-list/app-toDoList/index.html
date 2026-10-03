@@ -27,21 +27,25 @@
 
     <section class="controls">
       <form class="form">
-        <input class="input" type="text" placeholder="Ingresa tu tarea">
+        <input class="input" type="text" placeholder="Ingresa tu tarea" autofocus>
         <button type="submit" class="btn btn-add">
           <i class="fa-regular fa-square-plus""></i></button>
       </form>
     </section>
 
     <main class=" container-tasks">
-            <ul class="taks">
-              <li class="task">
-                <label>
-                  <input type="checkbox" class="checkbox">
+
+            <ul class="tasks">
+              <div class="tasks-empty">
+                <h3>No tienes tareas pendientes</h3>
+              </div>
+
+              <!-- <li class="task">
+                <p class"task-text">
                   <i class="fa-regular fa-circle"></i>
                   <i class="fa-solid fa-circle-check hidden"></i>
-                  <span> Tarea desde HTML</span>
-                </label>
+                  <span>${task.text}</span>
+                </p>
                 <div class="task-buttons">
                   <button class="btn btn-edit">
                     <i class="fa-solid fa-pen-to-square"></i>
@@ -49,24 +53,9 @@
                   <button class="btn btn-delete">
                     <i class="fa-solid fa-trash"></i>
                   </button>
-                </div>
-              </li>
-              <li class="task">
-                <label>
-                  <input type="checkbox" class="checkbox">
-                  <i class="fa-regular fa-circle"></i>
-                  <i class="fa-solid fa-circle-check hidden"></i>
-                  <span> Tarea desde HTML</span>
-                </label>
-                <div class="task-buttons">
-                  <button class="btn btn-edit">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                  </button>
-                  <button class="btn btn-delete">
-                    <i class="fa-solid fa-trash"></i>
-                  </button>
-                </div>
-              </li>
+                </div>`;
+              </li> -->
+
             </ul>
             </main>
 

@@ -86,7 +86,38 @@
 .container-tasks {
   padding: 10px;
   width: 80%;
+  min-height: 50dvh;
   margin: 10px auto;
+}
+
+.tasks-empty {
+  width: 100%;
+  min-height: 50dvh;
+  background-image: url(./../assets/undraw_new-entries_xw4m.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgba(102, 91, 144, 0.408);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 40px;
+  corner-shape: bevel;
+
+
+  h3 {
+    padding: 30px 0 10px 0;
+    width: 90%;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: purple;
+    border-radius: 40px;
+    corner-shape: bevel;
+
+  }
 }
 
 .taks {
@@ -105,13 +136,10 @@
   align-items: center;
   height: 45px;
 
-  label {
+  .task-text {
+    flex: 1;
     display: flex;
     align-items: center;
-
-    .checkbox {
-      display: none;
-    }
 
     i {
       font-size: 1.3rem;
@@ -119,6 +147,7 @@
     }
 
     span {
+      width: 100%;
       font-size: 1.2rem;
       margin-left: 5px;
       font-weight: 300;
