@@ -1,3 +1,12 @@
+export const printInitialMessage = () => {
+  const containerTasks = document.querySelector(".tasks");
+  containerTasks.innerHTML = "";
+  containerTasks.innerHTML = `
+        <div class="tasks-empty">
+          <h3>No tienes tareas pendientes</h3>
+        </div>`;
+};
+
 export const printTasks = (tasks) => {
   if (tasks.length === 0) return;
   const containerTasks = document.querySelector(".tasks");
@@ -9,17 +18,19 @@ export const printTasks = (tasks) => {
     li.classList.add("task");
     li.dataset.id = task.id;
     li.innerHTML = `
-        <p class"task-text">
+        <p class="task-text">
           <i class="fa-regular fa-circle ${task.completed ? "hidden" : ""}"></i>
-          <i class="fa-solid fa-circle-check hidden"></i>
-          <span>${task.text}</span>
+          <i class="fa-solid fa-circle-check ${task.completed ? "" : "hidden"}"></i>
+          <span class="${task.completed ? "completed" : ""}">${task.text}</span>
         </p>
         <div class="task-buttons">
           <button class="btn btn-edit">
-            <i class="fa-solid fa-pen-to-square"></i>
+            <i class="fa-solid fa-pen-to-square"
+            data-id="${task.id}"></i>
           </button>
           <button class="btn btn-delete">
-            <i class="fa-solid fa-trash"></i>
+            <i class="fa-solid fa-trash"
+            data-id="${task.id}"></i>
           </button>
         </div>`;
     containerTasks.append(li);
