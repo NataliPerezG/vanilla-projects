@@ -3,7 +3,7 @@ import {
   saveTasksInLocalStorage,
 } from "./storage.js";
 
-import { printInitialMessage, printTasks } from "./ui.js";
+import { printInitialMessage, printStates, printTasks } from "./ui.js";
 
 // Array de tareas inicial
 export let tasks = getTasksFromLocalStorage();
@@ -22,6 +22,7 @@ export const createNewTask = () => {
 
   saveTasksInLocalStorage("tasks", tasks);
   printTasks(tasks);
+  getStates();
 };
 
 // Función para marcar o desmarcar una tarea como completada
@@ -43,6 +44,7 @@ export const completeTask = (e) => {
   }
   saveTasksInLocalStorage("tasks", tasks);
   printTasks(tasks);
+  getStates();
 };
 
 // Función para mostrar el formulario de edición de una tarea
@@ -75,6 +77,7 @@ export const updateTask = (id, newText) => {
   });
   saveTasksInLocalStorage("tasks", tasks);
   printTasks(tasks);
+  getStates();
 };
 
 // función para eliminar una tarea
@@ -83,7 +86,28 @@ export const deleteTask = (e) => {
   tasks = tasks.filter((task) => task.id !== btnId);
   saveTasksInLocalStorage("tasks", tasks);
   printTasks(tasks);
+  getStates();
+  printStates();
   if (tasks.length === 0) {
     printInitialMessage();
   }
+};
+
+// datos para actualizar el estado de la app:
+export const getStates = () => {
+  const total = tasks.length;
+  const completed = tasks.filter((task) => task.completed).length;
+  const pending = tasks.filter((task) => !task.completed).length;
+  // operador ternario para evitar un NaN cuando el usuario borra todas las tareas
+  const completedProgress =
+    total > 0 ? Math.round((completed / total) * 100) : 0;
+  const pendingProgress = total > 0 ? Math.round((pending / total) * 100) : 0;
+
+  return {
+    total,
+    completed,
+    pending,
+    completedProgress,
+    pendingProgress,
+  };
 };

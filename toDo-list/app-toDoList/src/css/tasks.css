@@ -1,0 +1,162 @@
+.tasks {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tasks-empty {
+  width: 100%;
+  min-height: 50dvh;
+  background-image: url(./../assets/undraw_new-entries_xw4m.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: var(--second-color);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 40px;
+  corner-shape: bevel;
+
+
+  h3 {
+    padding: 30px 0 10px 0;
+    width: 90%;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: var(--purple-color);
+    border-radius: 40px;
+    corner-shape: bevel;
+  }
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+
+
+  .create-task {
+    display: flex;
+    background-color: var(--bg-color);
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  .task-text {
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+    i {
+      font-size: 1.3rem;
+      color: var(--second-color);
+    }
+
+    span {
+      width: 100%;
+      font-size: 1.2rem;
+      margin-left: 5px;
+      font-weight: 300;
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.editing {
+  color: var(--bg-color-dark)
+}
+
+.completed {
+  text-decoration: line-through;
+  text-decoration-color: var(--second-color);
+  text-decoration-thickness: 3px;
+  color: var(--bg-color-dark);
+}
+
+.task-buttons {
+  width: 12%;
+  display: flex;
+  justify-content: space-around;
+
+  .btn {
+    i {
+      font-size: 1.5rem;
+
+      &.fa-pen-to-square {
+        color: var(--blue-color);
+      }
+
+      &.fa-trash {
+        color: var(--red-color);
+      }
+    }
+  }
+}
+
+.btn:disabled>i.fa-pen-to-square {
+  color: var(--bg-color-dark);
+
+  &:hover {
+    cursor: not-allowed;
+  }
+}
+
+
+.edit-task {
+  width: 80%;
+  align-self: flex-end;
+
+  .form-edit {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 3px;
+
+    input {
+      width: 100%;
+      min-height: 30px;
+      background-color: var(--second-color);
+      border: none;
+      outline: none;
+      padding: 10px;
+      border-radius: 10px;
+      font-family: var(--font);
+      font-size: 1.1rem;
+      color: var(--color);
+      font-weight: 500;
+      letter-spacing: 1px;
+
+    }
+
+    .btn-add-taskEdit {
+      background-color: var(--blue-color);
+      font-family: var(--font);
+      color: var(--color);
+      font-weight: 600;
+      font-size: 1rem;
+      text-transform: uppercase;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      border-bottom: 2px solid var(--blue-color);
+      border-right: 2px solid var(--blue-color);
+      transition: border-bottom 200ms linear,
+        border-right 200ms linear;
+
+      &:hover {
+        cursor: pointer;
+        border-bottom: 2px solid var(--second-color);
+        border-right: 2px solid var(--second-color);
+      }
+    }
+
+  }
+}

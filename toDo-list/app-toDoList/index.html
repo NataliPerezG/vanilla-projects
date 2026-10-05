@@ -26,27 +26,55 @@
       <h2>Buenas noches, Pily</h2>
     </header>
 
-    <section class="controls">
-      <form class="form">
-        <input class="input" type="text" placeholder="Ingresa tu tarea" autofocus>
-        <button type="submit" class="btn btn-add">
-          <i class="fa-regular fa-square-plus"></i></button>
-      </form>
-    </section>
+    <form class="form">
+      <input class="input" type="text" placeholder="Ingresa tu tarea" autofocus>
+      <button type="submit" class="btn btn-add">
+        <i class="fa-regular fa-square-plus"></i></button>
+    </form>
 
     <main class=" container-tasks">
 
       <ul class="tasks">
-
         <div class="tasks-empty">
           <h3>No tienes tareas pendientes</h3>
         </div>
-
-        <li class="task">
-
-        </li>
-
+        <li class="task"></li>
       </ul>
+
+      <section class="controls">
+        <h2>Resultados</h2>
+
+        <article class="card card-total">
+          <h3>Total tareas</h3>
+          <p>4</p>
+        </article>
+
+        <article class="card card-progress">
+          <h3>Progreso actual</h3>
+          <p>50%</p>
+          <div class="progress-bar">
+            <div class="progress"></div>
+          </div>
+        </article>
+
+        <article class="card card-completed">
+          <h3>Tareas Completadas</h3>
+          <p>2</p>
+          <div class="progress-bar">
+            <div class="progress"></div>
+          </div>
+        </article>
+
+        <article class="card card-pending">
+          <h3>Tareas Pendientes</h3>
+          <p>2</p>
+          <div class="progress-bar">
+            <div class="progress"></div>
+          </div>
+        </article>
+
+
+      </section>
     </main>
   </div>
 

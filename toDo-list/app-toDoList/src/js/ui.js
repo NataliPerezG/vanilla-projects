@@ -1,3 +1,6 @@
+import { getStates } from "./app.js";
+import { getGreeting } from "./greeting.js";
+
 export const printInitialMessage = () => {
   const containerTasks = document.querySelector(".tasks");
   containerTasks.innerHTML = "";
@@ -45,4 +48,32 @@ export const printTasks = (tasks) => {
         </section>`;
     containerTasks.append(li);
   });
+};
+
+export const printStates = () => {
+  const data = getStates();
+
+  const totalCant = document.querySelector(".card-total p");
+  totalCant.textContent = data.total;
+
+  const percentCant = document.querySelector(".card-progress p");
+  percentCant.textContent = data.completedProgress + "%";
+  const percentProgress = document.querySelector(".card-progress .progress");
+  percentProgress.style.width = `${data.completedProgress}%`;
+
+  const complCant = document.querySelector(".card-completed p");
+  complCant.textContent = data.completed;
+  const complProgress = document.querySelector(".card-completed .progress");
+  complProgress.style.width = `${data.completedProgress}%`;
+
+  const pendCant = document.querySelector(".card-pending p");
+  pendCant.textContent = data.pending;
+  const pendProgress = document.querySelector(".card-pending .progress");
+  pendProgress.style.width = `${data.pendingProgress}%`;
+};
+
+export const renderGreeting = (userName = "Pily") => {
+  const greetingElement = document.querySelector(".header h2");
+  const greetingText = getGreeting();
+  greetingElement.textContent = `${greetingText}, ${userName}`;
 };

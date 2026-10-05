@@ -7,7 +7,12 @@ import {
   updateTask,
   deleteTask,
 } from "./js/app.js";
-import { printInitialMessage, printTasks } from "./js/ui.js";
+import {
+  printInitialMessage,
+  printTasks,
+  printStates,
+  renderGreeting,
+} from "./js/ui.js";
 
 // Variables
 const form = document.querySelector(".form");
@@ -32,11 +37,13 @@ const handlerClick = (e) => {
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   createNewTask();
+  printStates();
   form.reset();
 });
 
 container.addEventListener("click", (e) => {
   handlerClick(e);
+  printStates();
 });
 
 container.addEventListener("submit", (e) => {
@@ -57,3 +64,6 @@ if (tasks.length === 0) {
 } else {
   printTasks(tasks);
 }
+
+renderGreeting();
+printStates();

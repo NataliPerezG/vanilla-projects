@@ -7,13 +7,21 @@
 }
 
 :root {
-  --bg-color: #eee;
+  --bg-color: rgba(238, 238, 238, 0.789);
+  --bg-color-light: rgb(244, 244, 244);
+  --bg-color-dark: rgb(221, 216, 217);
+  --color: rgb(65, 29, 29);
+  --second-color: rgba(102, 91, 144, 0.8);
+  --light-color: rgba(245, 245, 245, 0.4);
+  --purple-color: rgb(108, 11, 108);
+  --red-color: rgb(148, 89, 77);
+  --blue-color: rgb(104, 144, 212);
   --font: "Livvic", sans-serif;
 
 }
 
 body {
   background-color: var(--bg-color);
-  color: rgb(65, 29, 29);
+  color: var(--color);
   font-family: var(--font);
 }
