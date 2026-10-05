@@ -3,10 +3,12 @@ import {
   saveTasksInLocalStorage,
 } from "./storage.js";
 
-import { printInitialMessage, printTasks } from "./ui";
+import { printInitialMessage, printTasks } from "./ui.js";
 
+// Array de tareas inicial
 export let tasks = getTasksFromLocalStorage();
 
+// Función para crear una nueva tarea y pasarla al array
 export const createNewTask = () => {
   const input = document.querySelector(".input");
   const text = input.value.trim();
@@ -22,9 +24,13 @@ export const createNewTask = () => {
   printTasks(tasks);
 };
 
+// Función para marcar o desmarcar una tarea como completada
 export const completeTask = (e) => {
+  if (e.target.classList.contains("fa-pen-to-square")) return;
+
   if (e.target.nodeName === "SPAN" || e.target.nodeName === "I") {
-    const li = e.target.parentElement.parentElement;
+    const li = e.target.closest(".task");
+
     const btnId = li.dataset.id;
     tasks = tasks.map((task) => {
       if (task.id === btnId) {
@@ -35,19 +41,48 @@ export const completeTask = (e) => {
       }
     });
   }
-  printTasks(tasks);
   saveTasksInLocalStorage("tasks", tasks);
+  printTasks(tasks);
 };
 
-export const editTask = (e) => {
-  console.log("editando");
+// Función para mostrar el formulario de edición de una tarea
+export const showFormEditTask = (e) => {
+  const taskToEdit = e.target.closest(".task");
+
+  // abrir y cerrar el formulario de edición
+  const formEditTask = taskToEdit.querySelector(".edit-task");
+  formEditTask.classList.toggle("hidden");
+
+  // Llenar el input del formulario con el texto de la tarea:
+  const inputEdit = formEditTask.querySelector("input");
+  const previousText = taskToEdit.querySelector("p>span");
+  previousText.classList.toggle("editing");
+
+  inputEdit.value = previousText.textContent;
+  inputEdit.focus();
 };
 
+// función para actualizar una tarea
+export const updateTask = (id, newText) => {
+  if (!newText.trim()) return;
+  tasks = tasks.map((task) => {
+    if (task.id === id) {
+      task.text = newText;
+      return task;
+    } else {
+      return task;
+    }
+  });
+  saveTasksInLocalStorage("tasks", tasks);
+  printTasks(tasks);
+};
+
+// función para eliminar una tarea
 export const deleteTask = (e) => {
   const btnId = e.target.dataset.id;
   tasks = tasks.filter((task) => task.id !== btnId);
-  printTasks(tasks);
   saveTasksInLocalStorage("tasks", tasks);
+  printTasks(tasks);
   if (tasks.length === 0) {
     printInitialMessage();
   }

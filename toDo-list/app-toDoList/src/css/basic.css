@@ -127,13 +127,16 @@
 }
 
 .task {
-  background-color: rgba(190, 157, 152, 0.649);
-  padding: 5px 10px;
-  border-radius: 10px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 45px;
+  flex-direction: column;
+
+
+  .create-task {
+    display: flex;
+    background-color: rgba(190, 157, 152, 0.649);
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
 
   .task-text {
     flex: 1;
@@ -156,6 +159,10 @@
 
 .hidden {
   display: none;
+}
+
+.editing {
+  color: rgb(151, 150, 150)
 }
 
 .completed {
@@ -181,5 +188,63 @@
         color: rgb(178, 50, 24);
       }
     }
+  }
+}
+
+.btn:disabled>i.fa-pen-to-square {
+  color: rgb(168, 166, 166);
+
+  &:hover {
+    cursor: not-allowed;
+  }
+}
+
+
+.edit-task {
+  width: 80%;
+  align-self: flex-end;
+
+  .form-edit {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 3px;
+
+    input {
+      width: 100%;
+      min-height: 30px;
+      background-color: rgba(102, 91, 144, 0.5);
+      border: none;
+      outline: none;
+      padding: 10px;
+      border-radius: 10px;
+      font-family: var(--font);
+      font-size: 1.1rem;
+      color: rgb(15, 37, 74);
+
+    }
+
+    .btn-add-taskEdit {
+      background-color: rgb(125, 155, 207);
+      font-family: var(--font);
+      color: rgb(65, 29, 29);
+      font-weight: 500;
+      font-size: 1rem;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      border-bottom: 2px solid rgb(125, 155, 207);
+      border-right: 2px solid rgb(125, 155, 207);
+      transition: border-bottom 200ms linear,
+        border-right 200ms linear;
+
+      &:hover {
+        cursor: pointer;
+        border-bottom: 2px solid rgba(102, 91, 144, 0.5);
+        border-right: 2px solid rgba(102, 91, 144, 0.5);
+      }
+    }
+
   }
 }
