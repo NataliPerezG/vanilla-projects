@@ -1,6 +1,5 @@
-[50%]   ToDo List
+[100%]   ToDo List
 [ ]     Tablero Kanban
-[60%]   Notas Adhesivas
 [ ]     App del clima
 [ ]     App de recetas
 [ ]     Carrito de compras
@@ -16,6 +15,7 @@
 [ ]     Slider
 [ ]     Quiz Game
 [ ]     Reproductor de música
+[60%]   Notas Adhesivas
 
 
 
