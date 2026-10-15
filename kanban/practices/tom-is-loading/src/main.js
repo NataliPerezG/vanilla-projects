@@ -1,2 +1,3 @@
 import "./style.css";
-import "./drag.js";
+import "./js/drag.js";
+import "./js/tasks.js";

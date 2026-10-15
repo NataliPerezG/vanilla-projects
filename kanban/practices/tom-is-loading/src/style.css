@@ -38,7 +38,6 @@ body {
 }
 
 .lines {
-
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -53,6 +52,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  outline: 2px solid transparent;
+  /* Espacio reservado invisible */
+  transition: outline 0.2s ease;
+  min-height: 40dvh;
 }
 
 .task {
@@ -67,6 +70,6 @@ body {
   color: navajowhite;
 }
 
-.selected {
-  border: 2px solid navy;
+.line.selected {
+  outline: 2px solid peachpuff;
 }

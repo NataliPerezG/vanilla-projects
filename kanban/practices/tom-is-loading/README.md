@@ -8,8 +8,7 @@
 
 ## Descripción:
 
-Tablero kanban con un formulario para agregar tareas, tres columnas para ubicar las tareas y funcionalidad de
-drag an drop
+Tablero kanban con un formulario para agregar tareas, tres columnas para ubicar las tareas y funcionalidad de **drag an drop**
 
 ### Funcionalidad adicional interesante:
 
@@ -21,21 +20,32 @@ drag an drop
 
 ## Notas de Desarrollo:
 
-- Nota uno
+- A los elementos (tasks) se les añade los eventos `dragstart` y `dragend` para agregar y eliminar la clase `selected` respectivamente.
+- En este ejercicio no hubo necesidad de usar el `drop`; bastó con el `dragover`en las columnas para el `e.preventDefault()` y la función `sortElement()`
+- Para solucionar el problema generado con `dragenter` y `dragleave` que se disparan al entrar y salir de CUALQUIER elemento hijo (es decir, cada vez que la tarjeta pasa por encima de otra tarjeta dentro de la columna) se verificó si realmente salía de la columna usando `e.relatedTarget`:
 
 ```javascript
-if (tasks.length === 0) {
-  containerTasks.append(initialMsg);
-  return;
-}
+column.addEventListener("dragleave", (e) => {
+  if (column.contains(e.relatedTarget)) return;
+  column.classList.remove("selected");
+});
 ```
 
-generaba un bug en la función `updateTasksStatus()`: cuando el array estaba vacío hacía
-el return antes obtener esos datos y el status quedaba con valor de 1.
-Por eso se eliminó ese `return`
+- Para evitar el cambio de tamaño en la columna cuando se agrega la clase `selected`se usa `outline` en lugar de `border`
+- La lógica para arrastrar, soltar y ordenar está en el archivo `drag.js``
+- La lógica para crear nuevas tareas está en el archivo `tasks.js`
+- la función.
 
-- Se implementó la función `handlerClickTasks(e)` para manejar las funciones `completeTask()`y `deleteTask()`.
-  De esa forma el evento quedó más limpio.
+```javascript
+export const attachDragEvents = (task) => {
+  task.addEventListener("dragstart", (e) => {
+    task.classList.add("dragging");
+  });
+  task.addEventListener("dragend", (e) => {
+    task.classList.remove("dragging");
+  });
+};
+```
 
 > Esta es una imagen de referencia final:
 
