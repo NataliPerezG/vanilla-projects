@@ -1,5 +1,5 @@
-[100%]   ToDo List
-[ ]     Tablero Kanban
+[100%]  ToDo List
+[50%]   Tablero Kanban
 [ ]     App del clima
 [ ]     App de recetas
 [ ]     Carrito de compras
@@ -16,6 +16,7 @@
 [ ]     Quiz Game
 [ ]     Reproductor de música
 [60%]   Notas Adhesivas
+[ ]     Packman
 
 
 

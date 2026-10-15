@@ -49,4 +49,4 @@ export const attachDragEvents = (task) => {
 
 > Esta es una imagen de referencia final:
 
-![Screenshot de la aplicación](./src/assets/img/ref-inicial.png)
+![Screenshot de la aplicación](./src/assets/img/ref-final.png)

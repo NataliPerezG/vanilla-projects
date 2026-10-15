@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
 *,
 *::after,
 *::before {
@@ -7,13 +9,17 @@
 }
 
 body {
-  background-color: #333;
+  background-image: url('./assets/img/background.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
   color: wheat;
+  font-family: "Livvic", sans-serif;
+  ;
 }
 
 .container {
   width: 80%;
-  margin: 0 auto;
+  margin: 30px auto;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -22,7 +28,7 @@ body {
 
 .form {
   width: 50%;
-  height: 30px;
+  height: 40px;
   margin: 0 auto;
   display: flex;
   gap: 10px;
@@ -30,10 +36,30 @@ body {
 
   input {
     flex: 1;
+    padding: 3px 5px;
+    outline: none;
+    font-family: "Livvic", sans-serif;
+    font-size: 1rem;
+    border: 2px solid peachpuff;
+    border-radius: 10px;
   }
 
   button {
-    width: 20%;
+    width: 15%;
+    border-radius: 5px;
+    border: none;
+    font-family: "Livvic", sans-serif;
+    text-transform: uppercase;
+    background-color: rgb(125, 125, 130);
+    color: peachpuff;
+    font-weight: 700;
+    transform: scale(1);
+    transition: transform 300ms ease;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+    }
   }
 }
 
@@ -46,7 +72,7 @@ body {
 }
 
 .line {
-  background-color: gray;
+  background-color: rgba(128, 128, 128, 0.6);
   padding: 20px;
   border-radius: 20px;
   display: flex;
@@ -66,7 +92,7 @@ body {
 }
 
 .dragging {
-  background-color: navy;
+  background-color: #222;
   color: navajowhite;
 }
 

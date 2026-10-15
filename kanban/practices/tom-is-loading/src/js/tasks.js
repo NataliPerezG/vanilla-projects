@@ -8,6 +8,9 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const newTask = document.createElement("p");
+
+  if (!input.value.trim()) return;
+
   newTask.textContent = input.value;
   newTask.classList.add("task");
   newTask.setAttribute("draggable", "true");
